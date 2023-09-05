@@ -1,0 +1,42 @@
+model_name: gpt-3.5-turbo
+embedding_model_name: 'openai:'
+generate_background: false
+task_started: '2023-09-04 13:32:28.418584'
+task_finished: '2023-09-04 13:33:53.917475'
+executed_on: 'Darwin-21.6.0-Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT
+  2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000-arm64'
+agent: dae
+extractor: BasicExtractor
+method: null
+source_db_path: db
+target_db_path: db
+source_collection: ont_oba
+additional_collections: null
+num_training: null
+num_testing: 50
+num_validation: 0
+stratified_collection:
+  source: null
+  training_set: null
+  testing_set: null
+  validation_set: null
+  training_set_collection: ont_oba_training
+  testing_set_collection: ont_oba_testing
+  validation_set_collection: null
+fields_to_mask:
+- id
+- original_id
+fields_to_predict:
+- definition
+report_path: null
+working_directory: results
+results:
+  precision: 0.52
+  recall: 0.52
+  f1_score: 0.52
+  accuracy: 0.52
+  specificity: 0.0
+  true_positives: 26
+  true_negatives: 0
+  false_positives: 23
+  false_negatives: 24

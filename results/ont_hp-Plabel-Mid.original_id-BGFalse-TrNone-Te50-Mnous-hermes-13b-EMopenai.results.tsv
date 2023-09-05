@@ -1,0 +1,63 @@
+# model_name: nous-hermes-13b
+# embedding_model_name: 'openai:'
+# generate_background: false
+# task_started: '2023-09-04 15:54:04.461408'
+# task_finished: null
+# executed_on: 'Darwin-21.6.0-Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT
+#   2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000-arm64'
+# agent: dae
+# extractor: BasicExtractor
+# method: null
+# source_db_path: db
+# target_db_path: db
+# source_collection: ont_hp
+# additional_collections: null
+# num_training: null
+# num_testing: 50
+# num_validation: 0
+# stratified_collection:
+#   source: null
+#   training_set: null
+#   testing_set: null
+#   validation_set: null
+#   training_set_collection: ont_hp_training
+#   testing_set_collection: ont_hp_testing
+#   validation_set_collection: null
+# fields_to_mask:
+# - id
+# - original_id
+# fields_to_predict:
+# - label
+# report_path: null
+# working_directory: results
+# results: null
+masked_id	expected_label	feature_definition	feature_aliases	feature_relationships	feature_logical_definition	masked_original_id	predicted_label	metric_precision	metric_recall	metric_f1_score	metric_accuracy	metric_specificity	metric_true_positives	metric_true_negatives	metric_false_positives	metric_false_negatives
+ElevatedCirculatingSSulfocysteineConcentration	Elevated circulating S-sulfocysteine concentration	Concentration of S-sulfocysteine in the blood circulation above the upper limit of normal.		[{'predicate': 'subClassOf', 'target': 'AbnormalCirculatingNonProteinogenicAminoAcidConcentration'}]		HP:0034745	Elevated circulating S-sulfocysteine concentration	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+ElevatedCirculatingDOPAConcentration	Elevated circulating DOPA concentration	Concentration of DOPA (3,4-dihydroxyphenylalanine) in the blood circulation above the upper limit of normal.		[{'predicate': 'subClassOf', 'target': 'AbnormalCirculatingMonocarboxylicAcidConcentration'}]		HP:0034604	Elevated DOPA concentration in blood circulation	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AplasiaOfPosteriorCommunicatingArtery	Aplasia of posterior communicating artery	A developmental anomnaly characterized by the lack of development of the posterior communicating artery.		[{'predicate': 'subClassOf', 'target': 'AbnormalPosteriorCirculatingArteryMorphology'}]		HP:0034566	Hypoplastic posterior communicating artery	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+DecreasedUrineGuanidinoaceticAcidLevel	Decreased urine guanidinoacetic acid level	The concentration of guanidinoacetic acid in the urine, normalized for urine concentration, is below the lower limit of normal.		[{'predicate': 'subClassOf', 'target': 'IncreasedUrineProteinogenicAminoAcidDerivativeLevel'}]		HP:0034888	Decreased urinary guanidinoacetic acid level	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ReducedEpidermalPlectinProteinExpression	Reduced epidermal plectin protein expression			[{'predicate': 'subClassOf', 'target': 'AbnormalEpidermalProteinExpression'}]		HP:0034580	Abnormal epidermal protein expression	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+EyelidPain	Eyelid pain	An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the eyelid.		[{'predicate': 'subClassOf', 'target': 'Pain'}, {'predicate': 'subClassOf', 'target': 'AbnormalEyelidPhysiology'}]		HP:0034808	Eyelid pain	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+IrisNodule	Iris nodule	The presence of a nodule (small rounded lump of tissue) in the iris.		[{'predicate': 'subClassOf', 'target': 'AbnormalityIrisMorphology'}]		HP:0034819	Conjunctival nodule	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+DermalImmuneComplexDeposition	Dermal immune complex deposition	Accumulation of antigen-bound antibody in the skin.		[{'predicate': 'subClassOf', 'target': 'AbnormalityOfSkinMorphology'}]		HP:0034643	Accumulation of antigen-antibody complexes	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ReducedAromataseActivity	Reduced aromatase activity	Enzyme activity of aromatase below the lower limit of normal.		[{'predicate': 'subClassOf', 'target': 'AbnormalAromataseActivity'}]		HP:0034700	Abnormal enzyme activity	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ExacerbatedByPhenytoinExposure	Exacerbated by phenytoin exposure	Applied to a sign or symptom that is worsened by administration of phenytoin.		[{'predicate': 'subClassOf', 'target': 'AggravatedByExposureToMedication'}]		HP:4000132	Phenytoin-induced exacerbation	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AlteredLocationOfTheLongitudinalColumnInTheFibrousSheath	Altered location of the longitudinal column in the fibrous sheath	The fibrous sheath is a structure in the midpiece of the sperm flagellum surrounding the outer dense fibers. It comprises two longitudinal columns and tranverse ribs. In case of altered location of the longitudinal column in the fibrous sheath the symmetrical structure is lost, most commonly with the columns not being opposite to each other, which can be visualised by electron microscopy.		[{'predicate': 'subClassOf', 'target': 'AbnormalSpermTailMorphology'}]		HP:0034947	Abnormal fibrous sheath morphology	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+EntamoebaHistolyticaAntibodyPositiveInStool	Entamoeba histolytica antibody positive in stool	Demonstration of antibody directed against Entamoeba histolytica in stool.		[{'predicate': 'subClassOf', 'target': 'PositiveStoolInfectiousAgentTest'}]		HP:0034868	Positive fecal Entamoeba histolytica antibody test	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AmelioratedByThiamine	Ameliorated by thiamine	Applies to a sign or symptom that is improved or made more bearable by treatment with thiamine.		[{'predicate': 'subClassOf', 'target': 'AmelioratedByExposureToMedication'}]		HP:0034538	Improved by thiamine	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ReducedEpidermalKeratin14ProteinExpression	Reduced epidermal keratin 14 protein expression	Amount of keratin 14 in the epidermis below the lower limit of normal. The findiong is typically ascertained by immunofluorescent microscopy.		[{'predicate': 'subClassOf', 'target': 'ReducedEpidermalKeratinProteinExpression'}]		HP:0035003	Reduced keratin 14 expression in the epidermis below normal levels	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+VeganDiet	Vegan diet	A history of following a vegan diet characterized by avoidance of food sourced from animals including meet, fish, and dairy products.		[{'predicate': 'subClassOf', 'target': 'NutritionHistory'}]		HP:4000172	Vegan diet history	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AbnormalKeratinocyteMorphology	Abnormal keratinocyte morphology	Any structural anomaly of the keratinocyte. The keratinocyte is the major cell type of the epidermis and is responsible for generating the protective barrier.		[{'predicate': 'subClassOf', 'target': 'AbnormalEpidermalMorphology'}]		HP:0034702	keratinocyte anomaly	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+BentSpermNeck	Bent sperm neck	Sharply angled insertion of the neck and midpiece into the head of a spermatozoon. This term applies if the proportion of spermatozoa with this feature is above the upper limit of normal.		[{'predicate': 'subClassOf', 'target': 'AbnormalSpermNeckMorphology'}]		HP:0034959	Sharply angled neck and midpiece	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+MedicationHistory	Medication history	Information about current or past medications taken by an individual.		[{'predicate': 'subClassOf', 'target': 'PastMedicalHistory'}]		HP:4000112	Medication history	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+ReducedErythrocyteGlutathioneConcentration	Reduced erythrocyte glutathione concentration	Concentration of glutathione in red blood cells below the lower limit of normal. Glutathione (GSH) is an important redox active biomolecule critical in the maintenance and regulation of cellular and organismal health.		[{'predicate': 'subClassOf', 'target': 'AbnormalErythrocyteMetaboliteConcentration'}]		HP:0034738	Decreased red blood cell glutathione concentration	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+MuscleFiberGranulofilamentousInclusionBodies	Muscle fiber granulofilamentous inclusion bodies	The presence of inclusion bodies within the cytoplasm of muscle cells that contain a mxiture of granules and filaments.		[{'predicate': 'subClassOf', 'target': 'MuscleFiberInclusionBodies'}]		HP:0034635	Muscle fiber cytoplasmatic inclusion bodies with mixed granules and filaments	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+FetalCytarabineExposure	Fetal cytarabine exposure	A history of exposure during pregnancy of the mother of a fetus or child to cytarabine.		[{'predicate': 'subClassOf', 'target': 'FetalExposureHistory'}]		HP:0034847	Maternal cytarabine exposure	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+LipidLadenLymphNodeMacrophages	Lipid-laden lymph node macrophages	Lymph node with increased numbers of macrophages heavily laden with lipids.		[{'predicate': 'subClassOf', 'target': 'AbnormalLymphNodeCellComposition'}]		HP:0034583	Foam cells in a lymph node	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+CalciumChannelBlockerExposure	Calcium channel blocker exposure	History of having taken a calcium channel blocker such as amlodipine, nicardipine, nifedipine, verapamil, or diltiazem.		[{'predicate': 'subClassOf', 'target': 'MedicationHistory'}]		HP:4000119	Calcium channel blocker use	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AsymmetricalInsertionOfTheMidpieceIntoTheHead	Asymmetrical insertion of the midpiece into the head	Insertion of the neck and midpiece into the head of a spermatozoon on an axis that diverges from the midline axis of the spermatozoon head. This term applies if the proportion of spermatozoa with this defect is above the upper limit of normal.		[{'predicate': 'subClassOf', 'target': 'AbnormalSpermMidPieceMorphology'}]		HP:0034958	Abnormal divergence of sperm midpiece	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+TrachealRupture	Tracheal rupture	A break or tear in the trachea.		[{'predicate': 'subClassOf', 'target': 'AbnormalTrachealMorphology'}]		HP:0034531	Torn trachea	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+MaternalHyperthyroidism	Maternal hyperthyroidism	The mother of a fetus or index patient has a history of hyperthyroidism during the corresponding pregnancy.		[{'predicate': 'subClassOf', 'target': 'PregnancyHistory'}]		HP:0034778	Maternal Hyperthyroidism	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ReducedEpidermalBullousPemphigoidAntigen1ProteinExpression	Reduced epidermal bullous pemphigoid antigen 1 protein expression	Lower than normal amount of bullous pemphigoid antigen 1 (BP230) in the epidermis.		[{'predicate': 'subClassOf', 'target': 'AbnormalEpidermalProteinExpression'}]		HP:0034576	Decreased bullous pemphigoid antigen 1 expression in the epidermis	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+SharkTeeth	Shark teeth	Eruption of permanent teeth behind deciduous (baby) teeth before they have fallen out, resulting in a double row of teeth. This phenomen is typically observed between the ages of 5 to 7 years.		[{'predicate': 'subClassOf', 'target': 'AbnormalityOfDentalEruption'}]		HP:4000168	Advanced eruption of teeth	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PerivascularSmallIntestinalHyalineDeposition	Perivascular small intestinal hyaline deposition	Deposition of a largely amorphous hyaline (transparent and homogeneous) substance around blood vessels in the wall of the small intestine.		[{'predicate': 'subClassOf', 'target': 'AbnormalSmallIntestineMorphology'}]		HP:0034926	Hyalinization of the small intestinal walls	0.0	0.0	0.0	0.0	0.0	0	0	1	1

@@ -1,0 +1,42 @@
+model_name: nous-hermes-13b
+embedding_model_name: 'openai:'
+generate_background: false
+task_started: '2023-09-03 20:55:58.034674'
+task_finished: '2023-09-03 22:53:51.344358'
+executed_on: 'Darwin-21.6.0-Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT
+  2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000-arm64'
+agent: dae
+extractor: BasicExtractor
+method: null
+source_db_path: db
+target_db_path: db
+source_collection: ont_uberon
+additional_collections: null
+num_training: null
+num_testing: 40
+num_validation: 0
+stratified_collection:
+  source: null
+  training_set: null
+  testing_set: null
+  validation_set: null
+  training_set_collection: ont_uberon_training
+  testing_set_collection: ont_uberon_testing
+  validation_set_collection: null
+fields_to_mask:
+- id
+- original_id
+fields_to_predict:
+- relationships
+report_path: null
+working_directory: results
+results:
+  precision: 0.19041666666666665
+  recall: 0.20763888888888893
+  f1_score: 0.1813095238095238
+  accuracy: 0.12458333333333334
+  specificity: 0.0
+  true_positives: 18
+  true_negatives: 0
+  false_positives: 69
+  false_negatives: 66

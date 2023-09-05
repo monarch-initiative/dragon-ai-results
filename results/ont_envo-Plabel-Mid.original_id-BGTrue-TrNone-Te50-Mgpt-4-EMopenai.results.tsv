@@ -1,0 +1,83 @@
+# model_name: gpt-4
+# embedding_model_name: 'openai:'
+# generate_background: true
+# task_started: '2023-08-30 20:11:23.470062'
+# task_finished: null
+# executed_on: 'Darwin-21.6.0-Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT
+#   2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000-arm64'
+# agent: dae
+# extractor: BasicExtractor
+# method: null
+# source_db_path: db
+# target_db_path: db
+# source_collection: ont_envo
+# num_training: null
+# num_testing: 50
+# num_validation: 0
+# stratified_collection:
+#   source: null
+#   training_set: null
+#   testing_set: null
+#   validation_set: null
+#   training_set_collection: ont_envo_training
+#   testing_set_collection: ont_envo_testing
+#   validation_set_collection: null
+# fields_to_mask:
+# - id
+# - original_id
+# fields_to_predict:
+# - label
+# report_path: null
+# working_directory: results
+# results: null
+masked_id	expected_label	feature_definition	feature_aliases	feature_relationships	feature_logical_definition	masked_original_id	predicted_label	metric_precision	metric_recall	metric_f1_score	metric_accuracy	metric_specificity	metric_true_positives	metric_true_negatives	metric_false_positives	metric_false_negatives
+Buoy	buoy	A manufactured product which floats in water and can be used a navigational marker among other purposes.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03600085	buoy	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+PharmacyUnitFacility	pharmacy unit facility	A hospital unit facility which is used to provide pharmacy services.		[{'predicate': 'HasPart', 'target': 'Pharmacy'}, {'predicate': 'subClassOf', 'target': 'HospitalUnitFacility'}]		ENVO:03501171	hospital pharmacy	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+IntensiveCareUnitRoom	intensive care unit room	A room in which intensive medical care is provided.		[{'predicate': 'PartOf', 'target': 'IntensiveCareUnitFacility'}, {'predicate': 'subClassOf', 'target': 'Room'}]		ENVO:03501155	intensive care unit room	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Famine	famine	An environmental system process during which populations have reduced access to food, causing increased hunger, malnutrition, and consequent mortality.		[{'predicate': 'subClassOf', 'target': 'EnvironmentalSystemProcess'}]		ENVO:03510003	food scarcity	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+MassageTherapyClinic	massage therapy clinic	A medical clinic which is used to provide massage therapy services.		[{'predicate': 'subClassOf', 'target': 'MedicalClinic'}]		ENVO:03501187	Massage Therapy Clinic	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+FieldCapacity	field capacity	A concentration of liquid water in soil arrived at after water which is not retained by the soil has drained away.		[{'predicate': 'subClassOf', 'target': 'ConcentrationOfLiquidWaterInSoil'}]		ENVO:06105302	soil water concentration after drainage	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+SwingBridge	swing bridge	A bridge which is movable and has a vertical locating pin as its primary structural support, and a support ring about which it can pivot horizontally.		[{'predicate': 'subClassOf', 'target': 'Bridge'}]		ENVO:03501250	movable bridge	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+IrradiationByIonizingRadiation	irradiation by ionizing radiation	Irradiation during which a material entity receives energy through ionizing radiation.		[{'predicate': 'HasPart', 'target': 'IonizingRadiation'}, {'predicate': 'subClassOf', 'target': 'Irradiation'}]		ENVO:01003015	Irradiation with ionizing radiation	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Pallet	pallet	A manufactured product which is a flat transport structure that supports goods in a stable fashion while being lifted and/or moved.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03501268	pallet	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+PrisonFacility	prison facility	A human construction which is used to forcibly confine humans.		[{'predicate': 'ParticipatesIn', 'target': 'UsageOfAnEnvironmentForCommunityAndSocialServices'}, {'predicate': 'subClassOf', 'target': 'HumanConstruction'}]		ENVO:03501204	structure for human confinement	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+FoodProssessingNonProductionArea	food prossessing non-production area	A hygienic food production area which is not an immediate part of a food manufacturing process area.		[{'predicate': 'subClassOf', 'target': 'HygienicFoodProductionArea'}]		ENVO:03501319	Separate Hygienic Food Production Area	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PrivatePrison	private prison	A prison facility which is owned and operated by a private corporation.		[{'predicate': 'subClassOf', 'target': 'PrisonFacility'}]		ENVO:03501205	private prison	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Pharmacy	pharmacy	A healthcare facility which is used to prepare, dispense, or sell medical drugs.		[{'predicate': 'subClassOf', 'target': 'HealthcareFacility'}]		ENVO:03501193	pharmacy	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+PlanetaryCryosphere	planetary cryosphere	A cryosphere which is part of a planet.		[{'predicate': 'PartOf', 'target': 'Planet'}, {'predicate': 'subClassOf', 'target': 'Cryosphere'}]		ENVO:03000144	planetary cryosphere	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Utensil	utensil	A hand tool for domestic use, especially in the kitchen.		[{'predicate': 'subClassOf', 'target': 'HandTool'}]		ENVO:03501327	kitchen hand tool	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PetroleumOilRefinery	petroleum oil refinery	A refinery which is capable of processing petroleum oil.		[{'predicate': 'subClassOf', 'target': 'Refinery'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'Refinery'}, {'predicate': 'CapableOf', 'target': '_:riog00017075'}]	ENVO:02000142	petroleum oil refinery	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+WalkInClinic	walk-in clinic	A medical clinic which is used to provide services to walk-in patients.		[{'predicate': 'subClassOf', 'target': 'MedicalClinic'}]		ENVO:03501192	walk-in clinic	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Supermarket	supermarket	A self-service shop offering a wide variety of food, beverages and household products, organized into sections.		[{'predicate': 'subClassOf', 'target': 'FoodShop'}]		ENVO:03501290	supermarket	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+ContaminatedLand	contaminated land	Land which has elevated levels of some contaminants or substances that are potentially hazardous to health or the environment.		[{'predicate': 'subClassOf', 'target': 'Land'}]		ENVO:03600073	contaminated land	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Pump	pump	A device that moves fluids (liquids or gases), or sometimes slurries, by mechanical action.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03501266	pump	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+PressureOfAtmosphericWaterVapour	pressure of atmospheric water vapour	The pressure of some atmospheric water vapour.		[{'predicate': 'CharacteristicOf', 'target': 'AtmosphericWaterVapour'}, {'predicate': 'subClassOf', 'target': 'Pressure'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'Pressure'}, {'predicate': 'CharacteristicOf', 'target': 'AtmosphericWaterVapour'}]	ENVO:09200033	pressure of atmospheric water vapour	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+NetShortwaveRadiation	net shortwave radiation	Energy which has been absorbed by an astronomical body or its parts following that body's irradiation by shortwave radiation from a star.		[{'predicate': 'RealizedIn', 'target': 'StellarRadiation'}, {'predicate': 'CharacteristicOfPartOf', 'target': 'AstronomicalBody'}, {'predicate': 'subClassOf', 'target': 'Energy'}]		ENVO:06105265	absorbed stellar energy	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ChildCareEnvironment	child care environment	An anthropogenic environment which is designed for child care.		[{'predicate': 'HasPart', 'target': 'DayCareBuilding'}, {'predicate': 'subClassOf', 'target': 'AnthropogenicEnvironment'}]		ENVO:03501333	child care environment	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+SiltyClay	silty clay	Clay which has a high proportion of silt in its composition.		[{'predicate': 'HasPart', 'target': 'Silt'}, {'predicate': 'subClassOf', 'target': 'Clay'}]		ENVO:06105280	silt-clay	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+NeonatalUnitFacility	neonatal unit facility	A hospital unit facility which is used to provide neonatal medical services.		[{'predicate': 'subClassOf', 'target': 'HospitalUnitFacility'}]		ENVO:03501159	neonatal hospital unit facility	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ConcentrationOfAmmoniumInSeaWater	concentration of ammonium in sea water	The concentration of ammonium when measured in sea water.		[{'predicate': 'subClassOf', 'target': 'ConcentrationOfAmmoniumInLiquidWater'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'ConcentrationOf'}, {'predicate': 'CharacteristicOf', 'target': '_:riog00021526'}]	ENVO:3100040	concentration of ammonium in sea water	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+VacuumCleaner	vacuum cleaner	A device that causes suction in order to remove debris from surfaces.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03501251	vacuum cleaner	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+NutritionAndDieteticsUnitFacility	nutrition and dietetics unit facility	A hospital unit facility which is used to provide nutrition and dietetics services.		[{'predicate': 'subClassOf', 'target': 'HospitalUnitFacility'}]		ENVO:03501163	nutrition and dietetics unit	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Trattoria	trattoria	A restaurant which is of Italian cultural origin and which is generally less formal than an Italian ristorante, but more formal than an osteria.		[{'predicate': 'subClassOf', 'target': 'Restaurant'}]		ENVO:03501228	trattoria	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+MeromicticPond	meromictic pond	A pond which has layers of water that do not intermix.		[{'predicate': 'subClassOf', 'target': 'Pond'}]		ENVO:03600043	stratified pond	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+WastewaterTreatmentProcess	wastewater treatment process	A recycling process during which wastewater is treated		[{'predicate': 'subClassOf', 'target': 'RecyclingProcess'}]		ENVO:06105300	wastewater treatment process	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+ConcentrationOfCalciumCarbonateInSeaWater	concentration of calcium carbonate in sea water	The concentration of calcium carbonate when measured in sea water.		[{'predicate': 'subClassOf', 'target': 'ConcentrationOf'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'ConcentrationOf'}, {'predicate': 'CharacteristicOf', 'target': '_:riog00021679'}]	ENVO:3100049	concentration of calcium carbonate in sea water	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+PhysiotherapyUnitFacility	physiotherapy unit facility	A hospital unit facility which is used to provide physiotherapy.		[{'predicate': 'subClassOf', 'target': 'HospitalUnitFacility'}]		ENVO:03501172	physiotherapy unit	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+SnowCover	snow cover	An area density which inheres in snow distributed over an area of a landmass or other substrate.		[{'predicate': 'subClassOf', 'target': 'AreaDensity'}]		ENVO:03400003	snow area density	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Dryer	dryer	A device designed to remove water or humidity.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03501284	dehumidifier	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PublicTransitSystem	public transit system	A constructed transport system which is owned by a government or other form of public representation.		[{'predicate': 'PartOf', 'target': 'PublicInfrastructure'}, {'predicate': 'ParticipatesIn', 'target': 'UsageOfAnEnvironmentForCommunityAndSocialServices'}, {'predicate': 'subClassOf', 'target': 'ConstructedTransportSystem'}]		ENVO:03501111	public transport system	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Photobioreactor	photobioreactor	A bioreactor which utilizes a light source to cultivate phototrophic microorganisms.		[{'predicate': 'subClassOf', 'target': 'Bioreactor'}]		ENVO:03600077	light-utilizing bioreactor	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Convective	convective	A physical quality of a process which is characteristic of processes that transport material within a volume due to the combined effects of material property heterogeneity and body forces across that volume.		[{'predicate': 'subClassOf', 'target': 'PhysicalQualityOfAProcess'}]		ENVO:01003011	combined effects transport process	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ConcentrationOfChloroflurocarbonInSeaWater	concentration of chloroflurocarbon in sea water	The concentration of chloroflurocarbon when measured in sea water.		[{'predicate': 'subClassOf', 'target': 'ConcentrationOf'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'ConcentrationOf'}, {'predicate': 'CharacteristicOf', 'target': '_:riog00021594'}]	ENVO:3100044	concentration of chlorofluorocarbon in sea water	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PrecipitationOfSleet	precipitation of sleet	A hydrological precipitation process during which water falls in both liquid and frozen form.		[{'predicate': 'subClassOf', 'target': 'HydrologicalPrecipitationProcess'}]		ENVO:03400014	hydrological precipitation process involving both liquid and solid precipitation	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AlkalineSpring	alkaline spring	A mineral spring through which water with a high pH flows.		[{'predicate': 'subClassOf', 'target': 'MineralSpring'}]		ENVO:01001894	high-pH mineral spring	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ToteBag	tote bag	A large bag with parallel handles that emerge from the sides of its pouch.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03501293	large bag	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Squeegee	squeegee	A tool with a flat, smooth rubber blade, used to remove or control the flow of liquid on a flat surface.		[{'predicate': 'subClassOf', 'target': 'HandTool'}]		ENVO:03501264	squeegee	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Gypsum	gypsum	A soft sulfate mineral composed of calcium sulfate dihydrate.		[{'predicate': 'subClassOf', 'target': 'AnthropogenicEnvironmentalMaterial'}]		ENVO:03501253	calcium sulfate dihydrate mineral	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+SpeedOfSoilWaterInfiltration	speed of soil water infiltration	The speed of some soil water infiltration.		[{'predicate': 'CharacteristicOf', 'target': 'WaterInfiltrationIntoSoil'}, {'predicate': 'subClassOf', 'target': 'Speed'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'Speed'}, {'predicate': 'CharacteristicOf', 'target': 'WaterInfiltrationIntoSoil'}]	ENVO:09200028	speed of soil water infiltration	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+DrySoilAlbedo	dry soil albedo	Soil albedo which inheres in dry soil.		[{'predicate': 'subClassOf', 'target': 'SoilAlbedo'}]		ENVO:06105233	Dry Soil Albedo	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PediatricIntensiveCareUnitFacility	pediatric intensive care unit facility	A hospital unit facility which is used to provide pediatric intensive care.		[{'predicate': 'subClassOf', 'target': 'IntensiveCareUnitFacility'}]		ENVO:03501170	pediatric intensive care unit	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+NestOfAlligator	nest of alligator	An animal habitation which is built by alligators from plants and decomposing vegetation in order to protect their eggs from predators.		[{'predicate': 'subClassOf', 'target': 'AnimalHabitation'}]		ENVO:03600069	alligator nest	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ConcentrationOfCarbon13AtomInSeaWater	concentration of carbon-13 atom in sea water	The concentration of carbon-13 atom when measured in sea water.		[{'predicate': 'subClassOf', 'target': 'ConcentrationOfCarbonAtomInSeaWater'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'ConcentrationOf'}, {'predicate': 'CharacteristicOf', 'target': '_:riog00021560'}]	ENVO:3100042	concentration of carbon-13 atom in sea water	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Hillock	hillock	A hill which is small and usually separated from a larger group of hills such as a range.		[{'predicate': 'subClassOf', 'target': 'Hill'}]		ENVO:03501238	isolated hill	0.0	0.0	0.0	0.0	0.0	0	0	1	1

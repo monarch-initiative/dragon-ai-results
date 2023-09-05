@@ -1,0 +1,72 @@
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_uberon
+  num_testing: 44
+  stratified_collection:
+    training_set_collection: ont_uberon_training
+    testing_set_collection: ont_uberon_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - label
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_uberon
+  num_testing: 44
+  stratified_collection:
+    training_set_collection: ont_uberon_training
+    testing_set_collection: ont_uberon_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_uberon
+  num_testing: 44
+  stratified_collection:
+    training_set_collection: ont_uberon_training
+    testing_set_collection: ont_uberon_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - relationships
+- model_name: gpt-3.5-turbo
+  generate_background: true
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_uberon
+  num_testing: 44
+  stratified_collection:
+    training_set_collection: ont_uberon_training
+    testing_set_collection: ont_uberon_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_uberon
+  num_testing: 44
+  stratified_collection:
+    training_set_collection: ont_uberon_training
+    testing_set_collection: ont_uberon_testing
+  additional_collections:
+    - gh_uberon
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - definition

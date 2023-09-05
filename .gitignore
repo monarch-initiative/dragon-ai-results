@@ -1,0 +1,6 @@
+*.log.yaml
+results/run-*
+*.old
+inputs/split-%
+old-results/
+

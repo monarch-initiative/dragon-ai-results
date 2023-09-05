@@ -1,0 +1,50 @@
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_cl
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_cl_training
+    testing_set_collection: ont_cl_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - definition
+  additional_collections:
+  - gh_cl
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_envo
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_envo_training
+    testing_set_collection: ont_envo_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - definition
+  additional_collections:
+  - gh_envo
+
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_obi
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_obi_training
+    testing_set_collection: ont_obi_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - definition
+  additional_collections:
+  - gh_obi
+

@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gpt-ontology-completion-analysis"
+version = "0.1.0"
+description = ""
+authors = ["cmungall <cjm@berkeleybop.org>"]
+readme = "README.md"
+packages = [{include = "gpt_ontology_completion_analysis"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+jupyter = "^1.0.0"
+pandas = "^2.1.0"
+seaborn = "^0.12.2"
+scipy = "^1.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

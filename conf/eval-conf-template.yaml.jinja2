@@ -1,0 +1,27 @@
+- source_db_path: db
+  target_db_path: db
+  source_collection: ont_{{ ont }}
+  fields_to_predict: [label]
+  fields_to_mask: [id, original_id]
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_{{ ont }}_training
+    testing_set_collection: ont_{{ ont }}_testing
+- source_db_path: db
+  target_db_path: db
+  source_collection: ont_{{ ont }}
+  fields_to_predict: [definition]
+  fields_to_mask: [id, original_id]
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_{{ ont }}_training
+    testing_set_collection: ont_{{ ont }}_testing
+- source_db_path: db
+  target_db_path: db
+  source_collection: ont_{{ ont }}
+  fields_to_predict: [relationships]
+  fields_to_mask: [id, original_id]
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_{{ ont }}_training
+    testing_set_collection: ont_{{ ont }}_testing
