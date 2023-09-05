@@ -1,0 +1,45 @@
+subject	subject_label
+UBERON:0006562	pharynx
+UBERON:0700019	parallel fiber
+UBERON:0700020	parallel fiber, bifurcated
+UBERON:8480044	long bone cartilage element
+UBERON:8480045	subiliac lymph node
+UBERON:8480046	mucosa of rumen
+UBERON:8480047	retroauricular region
+UBERON:8480048	calf
+UBERON:8480049	front hindlimb zeugopod
+UBERON:8480050	skin of calf
+UBERON:8480051	thoracolumbar junction
+UBERON:8480052	skin of thoracolumbar junction
+UBERON:8480053	skin of umbilical area
+UBERON:8480054	ileocecal lymph node
+UBERON:8480055	subcarinal lymph node
+UBERON:8480056	left supraclavicular lymph node
+UBERON:8480057	right supraclavicular lymph node
+UBERON:8480058	Virchow's lymph node
+UBERON:8480059	perigastric lymph node
+UBERON:8480060	paraspinal region
+UBERON:8480061	pericardial region
+UBERON:8480062	femoral head cartilage
+UBERON:8480063	dorsal iris
+UBERON:8480065	labial gland
+UBERON:8480066	interscapular region
+UBERON:8480067	bone marrow microvessel
+UBERON:8600000	lobular bronchiole
+UBERON:8600001	epithelium of lobular bronchiole
+UBERON:8600002	mucosa of lobular bronchiole
+UBERON:8600003	smooth muscle tissue of lobular bronchiole
+UBERON:8600004	visceral muscle tissue
+UBERON:8600005	visceral smooth muscle tissue
+UBERON:8600006	visceral striated muscle tissue
+UBERON:8600007	visceral transversely striated muscle tissue
+UBERON:8600008	visceral obliquely striated muscle tissue
+UBERON:8600009	subsegmental bronchus
+UBERON:8600010	bronchial submucosal gland ciliated duct
+UBERON:8600011	tracheal submucosal gland ciliated duct
+UBERON:8600012	submucosal gland acinus
+UBERON:8600013	submucosal gland collecting duct
+UBERON:8600014	submucosal gland ciliated duct
+UBERON:8600015	posterior sector of right lobe of liver
+UBERON:8600016	anterior sector of right lobe of liver
+UBERON:8600017	bronchopulmonary segment

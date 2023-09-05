@@ -1,0 +1,179 @@
+subject	subject_label
+GO:0120333	radial spoke 1
+GO:0120334	radial spoke 2
+GO:0120335	radial spoke 3
+GO:0120336	radial spoke head 1
+GO:0120337	radial spoke head 2
+GO:0120338	radial spoke head 3
+GO:0120339	radial spoke base
+GO:0120340	radial spoke base 1
+GO:0120341	radial spoke base 2
+GO:0120342	radial spoke base 3
+GO:0120343	radial spoke neck
+GO:0140969	determination of lung left/right asymmetry
+GO:0140970	AIM2 inflammasome complex assembly
+GO:0140971	regulation of AIM2 inflammasome complex assembly
+GO:0140972	negative regulation of AIM2 inflammasome complex assembly
+GO:0140973	positive regulation of AIM2 inflammasome complex assembly
+GO:0140974	cellular detoxification of sulfide
+GO:0140977	cellular detoxification of acetone
+GO:0140978	mitochondrial large ribosomal subunit binding
+GO:0140979	intracellular nucleotide homeostasis
+GO:0140980	intracellular nucleoside homeostasis
+GO:0140981	medium-chain fatty acid omega-hydroxylase activity
+GO:0140982	detoxification of aluminum ion
+GO:0140983	calcium:manganese antiporter activity
+GO:0140984	histone H4K12 methyltransferase activity
+GO:0140985	G protein-coupled chemorepellent receptor activity
+GO:0140986	G protein-coupled chemorepellent receptor signaling pathway
+GO:0140987	ATP:inorganic phosphate antiporter activity
+GO:0140988	ADP:inorganic phosphate antiporter activity
+GO:0140989	7-deoxyloganate 7-hydroxylase activity
+GO:0140990	primary piRNA processing
+GO:0140991	piRNA-mediated gene silencing by mRNA destabilization
+GO:0140993	histone modifying activity
+GO:0140994	RNA polymerase II CTD heptapeptide repeat modifying activity
+GO:0140995	histone H2A kinase activity
+GO:0140996	histone H3 kinase activity
+GO:0140997	histone H4 kinase activity
+GO:0140998	histone H2B kinase activity
+GO:0140999	histone H3K4 trimethyltransferase activity
+GO:0141000	histone H4K91 ubiquitin ligase activity
+GO:0141002	histone H4K16 propionyltransferase activity
+GO:0141003	histone H2AX kinase activity
+GO:0141005	retrotransposon silencing by heterochromatin formation
+GO:0141006	piRNA-mediated retrotransposon silencing by heterochromatin formation
+GO:0141007	siRNA-mediated retrotransposon silencing by heterochromatin formation
+GO:0141008	retrotransposon silencing by mRNA destabilization
+GO:0141009	piRNA-mediated retrotransposon silencing by mRNA destabilization
+GO:0141010	retrotransposon silencing by RNA-directed DNA methylation
+GO:0141011	siRNA-mediated retrotransposon silencing by mRNA destabilization
+GO:0141013	purine nucleotide import into lysosome
+GO:0141014	ribosome hibernation
+GO:0141016	G/T mismatch-specific thymine-DNA glycosylase activity
+GO:0141017	effector-mediated induction of cell cycle reactivation in host
+GO:0141018	adhesion of symbiont to host via host extracellular matrix
+GO:0141023	disruption by symbiont of host cell-cell adhesion
+GO:0141024	adhesion of symbiont to host cell surface via host membrane carbohydrate
+GO:0141025	adhesion of symbiont to host cell surface via host glycoprotein
+GO:0141026	adhesion of symbiont to host cell surface via host membrane cholesterol
+GO:0141027	perturbation by symbiont of host actin cytoskeleton
+GO:0141028	perturbation by symbiont of host microtubule cytoskeleton
+GO:0141029	disruption by symbiont of host focal adhesion
+GO:0141030	perturbation by symbiont of host actin cytoskeleton via filamentous actin depolymerization
+GO:0141031	perturbation by symbiont of host actin cytoskeleton via actin crosslinking
+GO:0141032	perturbation by symbiont of host actin cytoskeleton via actin filament reorganization
+GO:0141033	perturbation by symbiont of host actin cytoskeleton via actin polymerization
+GO:0141034	perturbation by symbiont of host actin cytoskeleton via inhibition of actin polymerization
+GO:0141035	CTP-dependent diacylglycerol kinase activity
+GO:0141038	phosphatidylinositol 3-kinase activator activity
+GO:0141039	phosphatidylinositol 3-kinase inhibitor activity
+GO:0141040	very-long-chain 3-oxoacyl-CoA reductase activity
+GO:0141041	disruption of extracellular matrix of another organism
+GO:0141042	symbiont-mediated cAMP intoxication of host cell
+GO:0141043	evasion of host innate immune recognition
+GO:0141044	epigenetic programming in the endosperm
+GO:0141046	Atg8-family conjugating enzyme activity
+GO:0141047	molecular tag activity
+GO:0141048	membrane tag activity
+GO:0141049	protein-glutathione oxidoreductase (glutathione) activity
+GO:0141050	histone H3K deacetylase activity
+GO:0141051	histone H4K deacetylase activity
+GO:0141052	histone H3 demethylase activity
+GO:0141053	histone H2A ubiquitin ligase activity
+GO:0141054	histone H2B ubiquitin ligase activity
+GO:0141055	histone H3 ubiquitin ligase activity
+GO:0141056	histone H4 ubiquitin ligase activity
+GO:0141057	histone H3 arginine deiminase activity
+GO:0141058	histone H4 demethylase activity
+GO:0141059	disruption of host antimicrobial peptide activity
+GO:0141060	disruption of anatomical structure in another organism
+GO:0141061	disruption of cell in another organism
+GO:0141062	disruption of tissue in another organism
+GO:0141063	epigenetic programming in the central cell
+GO:0141064	zygotic genome activation
+GO:0141065	maternal mRNA clearance
+GO:0141066	disruption of host extracellular matrix
+GO:0141067	intracellular nitrogen homeostasis
+GO:0141068	autosome genomic imprinting
+GO:0141069	receptor ligand inhibitor activity
+GO:0141070	symbiont-mediated suppression of host MAPK signal transduction pathway
+GO:0141071	symbiont-mediated activation of host MAPK signal transduction pathway
+GO:0141072	symbiont-mediated suppression of host tumor necrosis factor-mediated signaling pathway
+GO:0141073	disruption by symbiont of host opsonization
+GO:0141074	symbiont-mediated suppression of host cGAS-STING signal transduction
+GO:0141075	symbiont-mediated suppression of host JAK-STAT cascade
+GO:0141076	symbiont-mediated suppression of host TRAF-mediated signal transduction
+GO:0141077	suppression of host interferon-mediated signaling pathway
+GO:0141078	symbiont-mediated suppression of host RIG-I signaling pathway
+GO:0141079	symbiont-mediated activation of host inflammasome-mediated signal transduction
+GO:0141080	symbiont-mediated activation of host interferon signaling pathway
+GO:0141081	symbiont-mediated suppression of host inflammasome-mediated signal transduction
+GO:0141082	symbiont-mediated detoxification of host-generated reactive oxygen species
+GO:0141083	symbiont-mediated suppression of host reactive oxygen species generation
+GO:0141084	inflammasome-mediated signaling pathway
+GO:0141085	regulation of inflammasome-mediated signaling pathway
+GO:0141086	negative regulation of inflammasome-mediated signaling pathway
+GO:0141087	positive regulation of inflammasome-mediated signaling pathway
+GO:0141088	symbiont-mediated activation of host autophagy
+GO:0141089	glucose sensor activity
+GO:0160016	CCACCA tRNA nucleotidyltransferase activity
+GO:0160027	egg deposition
+GO:0160041	neuropeptide activity
+GO:0160042	purine nucleotide uniporter activity
+GO:0160044	sulfate:chloride antiporter activity
+GO:0160046	oxalate:chloride antiporter activity
+GO:0160047	muramyl dipeptide kinase activity
+GO:0160056	macropinosome membrane
+GO:0160068	negative regulation of pollen tube guidance
+GO:0160069	surfactant secretion
+GO:0160073	Casparian strip assembly
+GO:0160074	non-canonical inflammasome complex
+GO:0160075	non-canonical inflammasome complex assembly
+GO:0160076	negative regulation of non-canonical inflammasome complex assembly
+GO:0160077	lipid droplet fusion
+GO:0160078	negative regulation of lipid droplet fusion
+GO:0160079	metabotropic glycine receptor activity
+GO:0160080	ABC-type indole transporter activity
+GO:0160081	iodide channel activity
+GO:0160082	hypoxia-inducible factor-proline dioxygenase activity
+GO:0170001	ergothioneine transmembrane transporter activity
+GO:0170003	heme B transmembrane transporter activity
+GO:0170004	lipoate transmembrane transporter activity
+GO:0170005	cyclic nucleotide phosphodiesterase activator activity
+GO:0170006	lipoate transmembrane transport
+GO:0170007	endoplasmic reticulum-lipid droplet tether activity
+GO:0170008	mRNA phosphatase activator activity
+GO:0170009	endoplasmic reticulum-organelle membrane tether activity
+GO:0170010	nonsense-mediated decay complex
+GO:0170011	stalled ribosome sensor activity
+GO:0170012	histone H3K18 decrotonylase activity
+GO:0170013	channel complex
+GO:0170014	ankyrin-1 complex
+GO:0170015	carbon dioxide receptor activity
+GO:0170016	endoplasmic reticulum-endosome tether activity
+GO:0170020	ionotropic olfactory receptor activity
+GO:0170021	ionotropic taste receptor activity
+GO:0170022	ionotropic bitter taste receptor activity
+GO:0170023	ionotropic sweet taste receptor activity
+GO:0180000	histone methyltransferase inhibitor activity
+GO:0180001	cyclic-di-AMP binding
+GO:0180003	S-adenosyl-L-methionine:S-adenosyl-L-homocysteine antiporter activity
+GO:0180004	RNA polymerase II CTD heptapeptide repeat Y1 phosphatase activity
+GO:0180005	RNA polymerase II CTD heptapeptide repeat T4 phosphatase activity
+GO:0180006	RNA polymerase II CTD heptapeptide repeat S2 phosphatase activity
+GO:0180007	RNA polymerase II CTD heptapeptide repeat S5 phosphatase activity
+GO:0180008	RNA polymerase II CTD heptapeptide repeat S7 phosphatase activity
+GO:0180009	broad specificity neutral L-amino acid:basic L-amino acid antiporter activity
+GO:0180010	co-transcriptional mRNA 3'-end processing, cleavage and polyadenylation pathway
+GO:0180011	cytoplasmic polyadenylation
+GO:0180012	co-transcriptional RNA 3'-end processing, cleavage and polyadenylation pathway
+GO:0180013	lysophosphatidylserine flippase activity
+GO:0180014	protein-tRNA adaptor activity
+GO:0180015	nucleoside import across plasma membrane
+GO:0180016	SUMO ligase regulator activity
+GO:0180017	K11-linked deubiquitinase activity
+GO:0180018	cytoplasmic polyadenylation-dependent RNA catabolic process
+GO:0180019	Knl1/Spc105 complex
+GO:0180020	membrane bending activity
+GO:0180021	snRNA 2'-O-ribose methyltransferase activity

@@ -1,0 +1,589 @@
+subject	subject_label
+HP:0034521	Periorificial hyperkeratosis
+HP:0034522	Eosinophilic lymph node infiltration
+HP:0034523	Blood parasite
+HP:0034524	Bloodstream trypomastigotes
+HP:0034525	Adamantinoma
+HP:0034526	Abnormal enzyme activity in muscle tissue
+HP:0034527	Reduced muscle phosphoglycerate kinase activity
+HP:0034528	Reduced fibroblast type III procollagen synthesis
+HP:0034529	Reduced muscle myoadenylate deaminase activity
+HP:0034530	Bent long bone
+HP:0034531	Tracheal rupture
+HP:0034532	Increased myocardial glycogen content
+HP:0034533	Triggered by monoamine oxidase inhibitor
+HP:0034534	Triggered by serotonin reuptake inhibitor
+HP:0034535	Ameliorated by acetazolamide
+HP:0034536	Ameliorated by exposure to medication
+HP:0034537	Ameliorated by vitamin B12
+HP:0034538	Ameliorated by thiamine
+HP:0034539	Ameliorated by dantrolene
+HP:0034540	Ameliorated by biotin
+HP:0034541	Reduced bone-marrow megakaryocyte size
+HP:0034542	Hairshafts with longitudinal grooves
+HP:0034543	Mycobacterium bacteremia
+HP:0034544	Decreased delta-aminolevulinate dehydratase activity
+HP:0034545	Elevated circulating pancreatic secretory trypsin inhibitor activity
+HP:0034546	Presence of uterus in 46,XY individual
+HP:0034547	Intraluminal meconium calcification
+HP:0034548	Portal vein hypoplasia
+HP:0034549	Adrenal leiomyoma
+HP:0034550	Small intestinal lymphoplasmacytic infiltrate
+HP:0034551	Triggered by neuroleptic medication
+HP:0034552	Abnormal peroxisomal morphology
+HP:0034553	Absence of peroxisomes
+HP:0034554	Paucity of peroxisomes
+HP:0034555	Reduced sulfide:quinone oxidoreductase activity
+HP:0034556	Deficit at segmental level
+HP:0034557	Rhabdoid tumor
+HP:0034558	Rhabdoid tumor of the ovary
+HP:0034559	Cardiac rhabdoid tumor
+HP:0034560	Malignant rhabdoid tumor of the bladder
+HP:0034561	Malignant rhabdoid tumor of liver
+HP:0034562	Malignant rhabdoid tumor of muscle
+HP:0034563	Neck teratoma
+HP:0034564	Kidney teratoma
+HP:0034565	Elevated urinary 5-amino-4-imidazolecarboxamide-riboside level
+HP:0034566	Aplasia of posterior communicating artery
+HP:0034567	Optic pit
+HP:0034568	Ameliorated by naloxone
+HP:0034569	Ameliorated by pyridoxal phosphate
+HP:0034570	Thickened intrahepatic portal venules
+HP:0034571	Ovarian fibrosis
+HP:0034572	Pigment incontinence
+HP:0034573	Abnormal epidermal protein expression
+HP:0034574	Reduced epidermal keratin 10 protein expression
+HP:0034575	Reduced epidermal collagen IV protein expression
+HP:0034576	Reduced epidermal bullous pemphigoid antigen 1 protein expression
+HP:0034577	Reduced epidermal collagen VII protein expression
+HP:0034577	Reduced epidermal collagen VII protein expression
+HP:0034578	Reduced epidermal collagen XVII protein expression
+HP:0034578	Reduced epidermal collagen XVII protein expression
+HP:0034578	Reduced epidermal collagen XVII protein expression
+HP:0034579	Reduced epidermal integrin alpha6beta4 protein expression
+HP:0034579	Reduced epidermal integrin alpha6beta4 protein expression
+HP:0034579	Reduced epidermal integrin alpha6beta4 protein expression
+HP:0034579	Reduced epidermal integrin alpha6beta4 protein expression
+HP:0034580	Reduced epidermal plectin protein expression
+HP:0034580	Reduced epidermal plectin protein expression
+HP:0034580	Reduced epidermal plectin protein expression
+HP:0034580	Reduced epidermal plectin protein expression
+HP:0034580	Reduced epidermal plectin protein expression
+HP:0034581	Bloodstream Trypanosoma cruzi
+HP:0034582	Abnormal lymph node cell composition
+HP:0034583	Lipid-laden lymph node macrophages
+HP:0034584	Abnormal pancreatic acinus morphology
+HP:0034585	Cochlear nerve hypoplasia
+HP:0034586	Glutathionuria
+HP:0034587	Nevus psiloliparus
+HP:0034588	Crypt hyperplasia
+HP:0034589	Increased circulating dehydroepiandrosterone-sulfate concentration
+HP:0034590	Abnormal circulating thyroxine-binding globulin concentration
+HP:0034591	Decreased circulating thyroxine-binding globulin concentration
+HP:0034592	Elevated circulating beta-aminoisobutyric acid concentration
+HP:0034593	Elevated circulating dihydrouracil concentration
+HP:0034594	Elevated circulating dihydrothymine concentration
+HP:0034595	Elevated circulating N-carbamyl-beta-alanine concentration
+HP:0034596	Elevated ciculating 5-hydroxymethyluracil concentration
+HP:0034597	Decreased CSF creatinine concentration
+HP:0034598	Elevated urinary creatine level
+HP:0034599	Decreased circulating biotin concentration
+HP:0034600	Elevated circulating thrombopoietin concentration
+HP:0034601	Decreased circulating C1q concentration
+HP:0034602	Decreased circulating apolipoprotein A-II concentration
+HP:0034603	Elevated circulating CA19-9 concentration
+HP:0034604	Elevated circulating DOPA concentration
+HP:0034605	Elevated CSF DOPA concentration
+HP:0034606	Elevated circulating porphyrin concentration
+HP:0034607	Decreased circulating 17-hydroxyprogesterone concentration
+HP:0034608	Decreased circulating transcobalamin II concentration
+HP:0034609	Polychromasia
+HP:0034610	Decreased circulating myo-inositol concentration
+HP:0034611	Elevated circulating arabitol concentration
+HP:0034612	Elevated urine arabitol level
+HP:0034613	Elevated urine erythritol level
+HP:0034614	Elevated circulating erythritol concentration
+HP:0034615	Reduced circulating matrix metalloproteinase 2 concentration
+HP:0034616	Abnormal circulating coenzyme concentration
+HP:0034617	Elevated circulating S-adenosyl methionine concentration
+HP:0034618	Abnormal circulating membrane cofactor protein concentration
+HP:0034619	Decreased circulating membrane cofactor protein concentration
+HP:0034620	Elevated circulating membrane cofactor protein concentration
+HP:0034621	Hepatic xanthomatosis
+HP:0034622	Adrenal xanthomatosis
+HP:0034623	Splenic xanthomatosis
+HP:0034624	Spinal cord xanthomatosis
+HP:0034625	Brain xanthomatosis
+HP:0034626	Pulmonary xanthomatosis
+HP:0034627	Bone marrow xanthomatosis
+HP:0034628	Lymph node xanthomatosis
+HP:0034629	Xanthoma of bone
+HP:0034630	Ameliorated by folinic acid
+HP:0034631	Triggered by succinylcholine anesthetic
+HP:0034632	Exogenous androgen exposure
+HP:0034633	Reduced muscle enolase activity
+HP:0034634	Dopamine antagonist exposure
+HP:0034635	Muscle fiber granulofilamentous inclusion bodies
+HP:0034636	Bone marrow myeloid vacuolization
+HP:0034637	Pulmonary cylindroma
+HP:0034638	Colonic fibrinopurulent exudate
+HP:0034639	Bloodstream microfilaria
+HP:0034640	Skin infectious agent
+HP:0034641	Dermal microfilaria
+HP:0034642	Dermal papillary IgA deposition
+HP:0034643	Dermal immune complex deposition
+HP:0034644	Abnormal liver metabolite concentration
+HP:0034645	Hepatic polyglucosan accumulation
+HP:0034646	Urinary bladder neurofibroma
+HP:0034647	Synovial granuloma
+HP:0034648	Elevated urine fumaric acid level
+HP:0034649	Elevated urine N-acetylaspartic acid level
+HP:0034650	Elevated urine suberylglycine level
+HP:0034651	Elevated urine phenylpropionylglycine level
+HP:0034652	Elevated urine octenedioic acid level
+HP:0034653	Monocarboxylic aciduria
+HP:0034654	Elevated urine octanoic acid level
+HP:0034655	Elevated urine glutaconic acid level
+HP:0034656	Elevated urine 3-hydroxyglutaric level
+HP:0034657	Elevated urine malonic acid level
+HP:0034658	Elevated urine propionylglycine level
+HP:0034659	Elevated urine tiglylglycine level
+HP:0034660	Elevated urine 2-methylacetoacetic acid level
+HP:0034661	Elevated urine 3-hydroxypropionic acid level
+HP:0034662	Elevated urine 2-methylcitric acid level
+HP:0034663	Elevated urine 4-hydroxyisovaleric acid level
+HP:0034664	Elevated urine 2-hydroxy-3-methylvaleric acid level
+HP:0034665	Shoulder contracture
+HP:0034666	Shoulder extension contracture
+HP:0034667	Thumb extension contracture
+HP:0034668	Tongue myxoma
+HP:0034669	Abnormal knee morphology
+HP:0034670	Abnormal knee physiology
+HP:0034671	Knee contracture
+HP:0034672	Knee extension contracture
+HP:0034673	Abnormal ankle morphology
+HP:0034674	Abnormal ankle physiology
+HP:0034675	Toe joint contracture
+HP:0034676	Extension contracture of toe
+HP:0034677	Ankle contracture
+HP:0034678	Forefoot pronation contracture
+HP:0034679	Forefoot supination contracture
+HP:0034680	Forefoot adduction contracture
+HP:0034681	Finger joint contracture
+HP:0034682	Extension contracture of finger
+HP:0034683	Reduced muscle telethonin level
+HP:0034684	Abnormal enzyme concentration or activity
+HP:0034685	Abnormal liver enzyme activity or concentration
+HP:0034686	Reduced hepatic urocanase activity
+HP:0034687	Impaired cerebroside sulfate hydrolysis
+HP:0034688	Reduced peroxisomal glutaryl-CoA oxidase activity
+HP:0034689	Reduced sterol 27-hydroxylase activity
+HP:0034690	Reduced short-chain acyl-CoA dehydrogenase activity
+HP:0034691	Reduced 3-phosphoglycerate dehydrogenase activity
+HP:0034692	Elongated mitochondria
+HP:0034693	Reduced hepatic methionine adenosyltransferase activity
+HP:0034694	Substantia nigra dopaminergic neuron loss
+HP:0034696	Intramuscular lipoma
+HP:0034697	Cutaneous telangiectasia
+HP:0034698	Abnormal aromatase activity
+HP:0034699	Elevated aromatase activity
+HP:0034700	Reduced aromatase activity
+HP:0034701	Corneal amyloidosis
+HP:0034702	Abnormal keratinocyte morphology
+HP:0034703	Keratinocyte vacuolization
+HP:0034704	Parotid gland adenocarcinoma
+HP:0034705	Pulmonary vasculitis
+HP:0034706	Reduced hepatic D-glycerate kinase activity
+HP:0034707	Lymph-node hemophagocytosis
+HP:0034708	Superior pubic ramus hypoplasia
+HP:0034709	Uterine adenofibroma
+HP:0034710	Pulmonary hamartoma
+HP:0034711	Peripheral axonal distension
+HP:0034712	Decreased alpha-mannosidase activity
+HP:0034713	Abnormal hepatocyte morphology
+HP:0034714	Hepatic melanin-like lysosomal pigmentation
+HP:0034715	Reduced uroporphyrinogen decarboxylase activity
+HP:0034716	Reduced heme oxygenase activity
+HP:0034717	Swollen achromatic neurons in the cerebral cortex
+HP:0034718	Vacuolated hepatocytes
+HP:0034719	Lack of oocyte pronucleus formation
+HP:0034720	Self-healing squamous epithelioma
+HP:0034721	Elevated circulating pristanic acid concentration
+HP:0034722	Sarcoplasmic bodies
+HP:0034723	Elevated CSF hydroxyproline concentration
+HP:0034724	Reduced CSF cystine concentration
+HP:0034725	Abnormal beta-mannosidase activity
+HP:0034726	Elevated beta-mannosidase activity
+HP:0034727	Reduced alpha-L-fucosidase activity
+HP:0034728	Abnormal alpha-L-fucosidase activity
+HP:0034729	Elevated alpha-L-fucosidase activity
+HP:0034730	Elevated circulating S-adenosyl-L-homocysteine concentration
+HP:0034731	Elevated circulating S-adenosyl-L-methionine concentration
+HP:0034732	Exercise-triggered malignant hyperthermia
+HP:0034733	Anesthesic-triggered malignant hyperthermia
+HP:0034734	Elevated CSF argininosuccinic acid concentration
+HP:0034735	Elevated CSF aspartylglucosamine concentration
+HP:0034736	Elevated circulating alpha-oxoadipic acid concentration
+HP:0034737	Abnormal erythrocyte metabolite concentration
+HP:0034738	Reduced erythrocyte glutathione concentration
+HP:0034739	Elevated CSF sarcosine concentration
+HP:0034740	Reduced CSF methionine concentration
+HP:0034741	Elevated circulating homoarginine concentration
+HP:0034742	Elevated urinary formiminoglutamic acid level
+HP:0034743	Elevated CSF proline concentration
+HP:0034744	Elevated urinary S-sulfocysteine level
+HP:0034745	Elevated circulating S-sulfocysteine concentration
+HP:0034746	Sertoli cell hyperplasia
+HP:0034747	CSF infectious agent
+HP:0034748	CSF mycobacteria
+HP:0034749	Fungal bloodstream infection
+HP:0034750	Supraclavicular lymphadenopathy
+HP:0034751	Inguinal lymphadenopathy
+HP:0034752	Axillary lymphadenopathy
+HP:0034753	Positive Murphy sign
+HP:0034754	Bilious emesis
+HP:0034755	Ameliorated by NSAID
+HP:0034756	Fetal exposure history
+HP:0034757	Fetal barbiturate exposure
+HP:0034758	Fetal narcotic exposure
+HP:0034759	Ameliorated by ethosuximide
+HP:0034760	Reduced epidermal extracellular matrix protein 1 protein expression
+HP:0034761	Neurofibroma by anatomical location
+HP:0034762	Tongue neurofibroma
+HP:0034763	Cardiac neurofibroma
+HP:0034764	Gastric neurofibroma
+HP:0034765	Renal neurofibroma
+HP:0034766	Muscle fiber polyglucosan inclusion bodies
+HP:0034767	Abnormal rete ridge morphology
+HP:0034768	Rete ridge elongation
+HP:0034769	Pulmonary Langerhans cell histiocytosis
+HP:0034770	Lumbar hypolordosis
+HP:0034771	Battle sign
+HP:0034772	Decreased skull base length
+HP:0034773	Oscillopsia
+HP:0034774	Decreased blink rate
+HP:0034775	Abnormal blink rate
+HP:0034776	Elevated blink rate
+HP:0034777	Purulent sputum
+HP:0034778	Maternal hyperthyroidism
+HP:0034779	Perineal
+HP:0034780	Gadolinium exposure
+HP:0034781	Purulent parotid gland drainage
+HP:0034782	Obstipation
+HP:0034783	Posttussive emesis
+HP:0034784	Vasculitis by anatomical site
+HP:0034785	Vasculitis by histology
+HP:0034786	Leukocytoclastic vasculitis
+HP:0034787	Accumulation of lipid droplets in small-bowel enterocytes
+HP:0034788	Pericardial friction rub
+HP:0034789	Muscular vasculitis
+HP:0034790	Abnormal muscle succinate dehydrogenase staining
+HP:0034791	Increased muscle succinate dehydrogenase staining
+HP:0034792	Decreased muscle succinate dehydrogenase staining
+HP:0034793	Small intestinal hamartoma
+HP:0034794	Pyriform sperm head
+HP:0034795	Excess residual spermatozoal cytoplasm
+HP:0034796	Cardiomyocyte hyaline bodies
+HP:0034797	Hepatic hemophagocytosis
+HP:0034798	CSF hemophagocytosis
+HP:0034799	Splenic hemophagocytosis
+HP:0034800	Urinary bladder granulomatosis
+HP:0034801	Epidermal necrosis
+HP:0034802	Exacerbated by flexion
+HP:0034803	Hemolacria
+HP:0034804	Corneal foreign body sensation
+HP:0034805	Buttock pain
+HP:0034806	Vaginal foreign body sensation
+HP:0034807	Paroxysmal nocturnal dyspnea
+HP:0034808	Eyelid pain
+HP:0034809	Abnormal sperm physiology
+HP:0034810	Small acrosomal area
+HP:0034811	Bent sperm flagella
+HP:0034812	Spermiation failure
+HP:0034813	Hypospermatogenesis
+HP:0034814	Conjunctival membrane
+HP:0034815	Extreme oligozoospermia
+HP:0034816	Mild oligozoospermia
+HP:0034817	Moderate oligozoospermia
+HP:0034818	Severe oligozoospermia
+HP:0034819	Iris nodule
+HP:0034820	Koeppe nodules
+HP:0034821	Bussaca nodules
+HP:0034822	Abnormal CSF ion concentration
+HP:0034823	Decreased CSF copper concentration
+HP:0034824	Diffuse pulmonary lymphoid hyperplasia
+HP:0034825	Ameliorated by steroid medication
+HP:0034826	Triggered by medication exposure
+HP:0034827	Triggered by levothyroxin exposure
+HP:0034828	Reduced muscle laminin alpha-2 chain staining
+HP:0034829	Adrenal cortical sclerosis
+HP:0034830	Reduced hepatic fructose-1,6-phosphate aldolase activity
+HP:0034831	Pancreatic hamartoma
+HP:0034832	Liver angiomyolipoma
+HP:0034833	Cardiac lipoma
+HP:0034834	Peripheral nerve polyglucosan inclusion bodies
+HP:0034835	Cardiac polyglucosan accumulation
+HP:0034836	Cystic nephroma
+HP:0034837	Absent dermal elastic fibers
+HP:0034838	Cleavage at junction of stratum corneum and stratum granulosum
+HP:0034839	Lymphoid hyperplasia
+HP:0034840	Absence of epidermal lamellar bodies
+HP:0034841	Gastrointestinal granulomatosis
+HP:0034842	Enlarged sperm head vacuole
+HP:0034843	Ureteral hamartoma
+HP:0034844	Fetal methimazole exposure
+HP:0034845	Fetal procarbazine exposure
+HP:0034846	Fetal fluorouracil exposure
+HP:0034847	Fetal cytarabine exposure
+HP:0034848	Fetal tetracycline exposure
+HP:0034849	Fetal quinine exposure
+HP:0034850	Fetal cyclophosphamide exposure
+HP:0034851	Fetal metronidazole exposure
+HP:0034852	Fetal phenobarbital exposure
+HP:0034853	Fetal phenytoin exposure
+HP:0034854	Periumbilical
+HP:0034855	Maternal obesity during pregnancy
+HP:0034856	Maternal amniocentesis
+HP:0034857	Typified by highly variable age of onset
+HP:0034858	Abnormal leukocyte enzyme concentration or activity
+HP:0034859	Reduced leukocyte beta-glucuronidase activity
+HP:0034860	Reduced leukocyte alpha-L-fucosidase activity
+HP:0034861	Reduced leukocyte arylsulfatase B activity
+HP:0034862	Reduced leukocyte steroid sulfatase activity
+HP:0034863	Reduced leukocyte arylsulfatase A activity
+HP:0034864	Decreased alpha-galactosidase A activity
+HP:0034865	Positive fecal parasite test
+HP:0034866	Positive stool infectious agent test
+HP:0034867	Positive stool giardia antigen
+HP:0034868	Entamoeba histolytica antibody positive in stool
+HP:0034869	Reduced erythrocyte free porphyrin concentration
+HP:0034870	Reduced circulating urocanic acid concentration
+HP:0034871	Decreased urinary epinephrine level
+HP:0034872	Decreased CSF epinephrine concentration
+HP:0034873	Decreased circulating epinephrine concentration
+HP:0034874	Decreased circulating norepinephrine concentration
+HP:0034875	Decreased urinary norepinephrine level
+HP:0034876	Decreased urinary metaepinephrine level
+HP:0034877	Decreased CSF metanephrine concentration
+HP:0034878	Decreased circulating metanephrine concentration
+HP:0034879	Ovarian mass
+HP:0034880	Adrenal mass
+HP:0034881	Uterine mass
+HP:0034882	Prostatic calculus
+HP:0034883	Decreased portal vein velocity
+HP:0034884	Uterine cervix mass
+HP:0034885	Abnormal urinary uromodulin level
+HP:0034886	Decreased urinary uromodulin level
+HP:0034887	Increased urine phenylacetylglutamine level
+HP:0034888	Decreased urine guanidinoacetic acid level
+HP:0034889	Positive urine infectious agent nucleid acid test
+HP:0034890	Positive CMV urine nucleic acid test
+HP:0034891	Positive Neisseria gonorrhoeae urine nucleic acid test
+HP:0034892	Positive enterovirus urine nucleic acid test
+HP:0034893	Elevated brain glycine level by MRS
+HP:0034894	Elevated brain polyol compounds by MRS
+HP:0034895	Elevated brain gamma-aminobutyric acid by MRS
+HP:0034896	History of recent anticoagulant ingestion
+HP:0034897	Decreased circulating antidiuretic hormone concentration
+HP:0034898	Elevated circulating growth hormone-releasing hormone concentration
+HP:0034899	Abnormal amniotic fluid protein concentration
+HP:0034900	Decreased amniotic fluid alpha-fetoprotein concentration
+HP:0034901	Increased circulating vitamin E concentration
+HP:0034902	Abnormal circulating calcitonin concentration
+HP:0034903	Decreased circulating calcitonin concentration
+HP:0034904	Decreased circulating thyrotropin releasing hormone concentration
+HP:0034905	Elevated circulating uroporphyrin concentration
+HP:0034906	Increased urine pentacarboxylporphyrin level
+HP:0034907	Increased urine hexacarboxylporphyrin level
+HP:0034908	Increased circulating dehydroepiandrosterone concentration
+HP:0034909	Increased erythrocyte coproporphyrin concentration
+HP:0034910	Increased erythrocyte uroproporphyrin concentration
+HP:0034911	Decreased circulating apolipoprotein E concentration
+HP:0034912	Elevated circulating apolipoprotein E concentration
+HP:0034913	Acrosomal hypoplasia
+HP:0034914	Oocyte maturation arrest
+HP:0034915	Abnormal anus morphology
+HP:0034916	Abnormal anus physiology
+HP:0034917	Weak anal sphincter tone
+HP:0034918	Reduced muscle 2,4-dienoyl-CoA reductase activity
+HP:0034919	Reduced liver 2,4-dienoyl-CoA reductase activity
+HP:0034920	Nasal mucosa vasculitis
+HP:0034921	Pituitary blastoma
+HP:0034922	Peripheral axon spheroid formation
+HP:0034923	Reduced liver carboxylesterase 1 activity
+HP:0034924	Abnormal dermis morphology
+HP:0034925	Perivascular dermis hyaline deposition
+HP:0034926	Perivascular small intestinal hyaline deposition
+HP:0034927	Large keratohyaline granules
+HP:0034928	Decreased muscle lipoic acid content
+HP:0034929	Reduced hepatic cystathionine gamma-lyase activity
+HP:0034930	Digestive system neoplasm
+HP:0034931	Lumbar spondylosis
+HP:0034932	Decreased circulating acid maltase activity
+HP:0034933	Increased circulating ribitol concentration
+HP:0034934	Abnormal circulating 7-dehydrocholesterol concentration
+HP:0034935	Decreased circulating 7-dehydrocholesterol concentration
+HP:0034936	Elevated circulating lathosterol concentration
+HP:0034937	Elevated circulating desmosterol concentration
+HP:0034938	Decreased circulating sialic acid concentration
+HP:0034939	Purulent synovial fluid
+HP:0034940	Muscle fiber calsequestrin 1-containing inclusion bodies
+HP:0034941	Palatine myxoma
+HP:0034942	Vaginal myxoma
+HP:0034943	Decreased dermal collagen
+HP:0034944	Irregularly shaped keratohyaline granules
+HP:0034945	Tubular shadows
+HP:0034946	Multiple eyelid margin cysts
+HP:0034947	Altered location of the longitudinal column in the fibrous sheath
+HP:0034948	Uterine myxoma
+HP:0034949	Uterine cervix myxoma
+HP:0034950	Typified by complete penetrance
+HP:0034951	Osteochondromyxoma
+HP:0034952	Gangliocytoma
+HP:0034953	Duodenal gastrinoma
+HP:0034954	Thymic carcinoid tumor
+HP:0034955	Bone marrow eosinophilia
+HP:0034956	Exacerbated by lithium exposure
+HP:0034957	Reduced hepatic glycogen debrancher enzyme activity
+HP:0034958	Asymmetrical insertion of the midpiece into the head
+HP:0034959	Bent sperm neck
+HP:0034960	Elevated urine 3,6-epoxydicarboxylic acid level
+HP:0034961	Gallbladder biliary sludging
+HP:0034962	Exacerbated by amiodarone exposure
+HP:0034963	Ureteral mass
+HP:0034964	Wide cavum septum pellucidum
+HP:0034965	Hypoplastic trochlear nerve
+HP:0034966	Thymic cyst
+HP:0034967	Uterine cyst
+HP:0034968	Urinary bladder mass
+HP:0034969	Endosteal scalloping
+HP:0034970	Urinary bladder hamartoma
+HP:0034971	Peritoneal mass
+HP:0034972	Fallopian tube mass
+HP:0034973	Aplasia of the pyramids of the medulla oblongata
+HP:0034974	Bathrocephaly
+HP:0034975	Occipital horn
+HP:0034976	Absent pituitary stalk
+HP:0034977	Abnormal pituitary stalk morphology
+HP:0034978	Interrupted pituitary stalk
+HP:0034979	Facial synkinesis
+HP:0034980	Synkinesis
+HP:0034981	Exposure to birds
+HP:0034982	Perianal anethesia
+HP:0034983	Phenylephrine does not induce blanching of eye redness
+HP:0034984	Fetal alcohol exposure
+HP:0034985	Reduced cellular cobalamin uptake
+HP:0034986	Focal necrotic brainstem lesion
+HP:0034987	Focal necrotic optic nerve lesion
+HP:0034988	Focal necrotic thalamus lesion
+HP:0034989	Interstitial dermal edema
+HP:0034990	Shoulder abduction contracture
+HP:0034991	Shoulder external rotation contracture
+HP:0034992	Thumb adduction contracture
+HP:0034993	Hip internal rotation contracture
+HP:0034994	Elevated circulating saccharopine concentration
+HP:0034995	Reduced hepatic fructose-1,6-bisphosphatase activity
+HP:0034996	Reduced hepatic carbamoylphosphate synthetase activity
+HP:0034997	Reduced intraepidermal small nerve fiber density
+HP:0034998	Femoral artery duplication
+HP:0034999	Intracellular accumulation of collagen VII
+HP:0035000	Reduced reticular lamina anchoring fibril density
+HP:0035001	Reduced lamina lucida anchoring filament density
+HP:0035002	Reduced epidermal keratin 5 protein expression
+HP:0035003	Reduced epidermal keratin 14 protein expression
+HP:0035004	Reduced epidermal keratin protein expression
+HP:0035005	Reduced hepatic alanine-glyoxylate aminotransferase activity
+HP:0035006	Hepatic sinusoidal dilatation
+HP:0035007	Thin spermatozoon midpiece
+HP:0035008	Thick spermatozoon midpiece insertion
+HP:0035009	Shoulder adduction contracture
+HP:0035010	Occupational exposure history
+HP:0035011	Occupational silver exposure
+HP:0035012	Abnormal femoral artery morphology
+HP:0035013	Abnormal extrahepatic bile duct morphology
+HP:0035014	Extrahepatic bile duct fibrosis
+HP:4000093	Ectopic tooth eruption
+HP:4000094	Corpus cavernosum hypoplasia
+HP:4000095	Elevated circulating thymine concentration
+HP:4000100	Positive lactose hydrogen breath test
+HP:4000101	Triggered by exposure to medication
+HP:4000102	Triggered by allopurinol
+HP:4000103	Ameliorated by oral zinc supplementation
+HP:4000104	Curved dental root
+HP:4000105	Abnormal four chamber view of the fetal heart
+HP:4000106	Spleen hamartoma
+HP:4000107	Positive lupus band test
+HP:4000108	Bone marrow erythroid vacuolization
+HP:4000109	Triggered by electromagnetic field
+HP:4000110	Exposure history
+HP:4000111	Asbestos exposure
+HP:4000112	Medication history
+HP:4000113	Aminoglycoside exposure
+HP:4000114	Statin exposure
+HP:4000115	Potassium-sparing diuretic exposure
+HP:4000116	Carbamazepine exposure
+HP:4000117	Valproate exposure
+HP:4000118	Hydralazine exposure
+HP:4000119	Calcium channel blocker exposure
+HP:4000120	Triggered by nickel
+HP:4000121	Triggered by poison ivy, poson oak, or sumac
+HP:4000122	History of exclusive breast feeding
+HP:4000123	Nutrition history
+HP:4000124	High dietary oxalate intake
+HP:4000125	Recent honey ingestion
+HP:4000126	Raw egg-white ingestion
+HP:4000127	Exacerbated by sodium channel blocking agent exposure
+HP:4000128	Nitric oxide addiction
+HP:4000129	Recent blood transfusion
+HP:4000130	Ameliorated by colchicine
+HP:4000131	Ameliorated by vitamin D
+HP:4000132	Exacerbated by phenytoin exposure
+HP:4000133	Triggered by angiotensin-converting enzyme inhibitor
+HP:4000134	Prostaglandin E1 exposure
+HP:4000135	5-fluorouracil exposure
+HP:4000136	6-mercaptopurine exposure
+HP:4000137	Isoniazid exposure
+HP:4000138	Absent cavum septum pellucidum
+HP:4000139	Fetal abdominal cyst
+HP:4000140	Fetal bowel dilatation
+HP:4000141	Left ventricular dilatation
+HP:4000142	Fetal trigonocephaly
+HP:4000143	Abnormal fetal heart outflow tract
+HP:4000144	Recent past medical history
+HP:4000145	History of recent viral illness
+HP:4000146	History of recent dental procedure
+HP:4000147	Abnormal portal artery morphology
+HP:4000148	Portal artery hyperplasia
+HP:4000149	Lymph node necrosis
+HP:4000150	Multinucleated neuron
+HP:4000151	History of recent cotralateral injury
+HP:4000152	Alternating laterality
+HP:4000153	Cervical squamous cell papilloma
+HP:4000154	Liver leiomyoma
+HP:4000158	Typified by high penetrance
+HP:4000159	Typified by moderate penetrance
+HP:4000160	Typified by low penetrance
+HP:4000162	Decreased Succinyl-CoA 3-ketoacid CoA transferase activity
+HP:4000163	Decreased phytanoyl-CoA hydroxylase activity
+HP:4000164	Reduced bifunctional protein activity
+HP:4000165	Decreased circulating plasmalogen concentration
+HP:4000166	Post-vaccination varicella zoster virus infection
+HP:4000167	Recent steroid exposure
+HP:4000168	Shark teeth
+HP:4000169	Pontine T2 hypointensity
+HP:4000170	Anti-platelet antigen antibody positivity
+HP:4000171	Anti-voltage-gated potassium channel antibody positivity
+HP:4000172	Vegan diet
+HP:4000173	History of previous pregnancy with hydrops fetalis
+HP:4000174	Ameliorated by potassium supplements
+HP:4000175	Ameliorated by niacin
+HP:4000176	Aggravated by exposure to medication
+HP:4000177	Bleeding ameliorated by vitamin K
+HP:4000178	Anti-retroviral therapy exposure
+HP:4000179	Potassium-wasting diuretic exposure
+HP:4000180	Tricyclic antidepressant exposure
+HP:4000181	Excessive dental attrition
+HP:4000182	Positionally dependent pain
+HP:4000183	Abnormal erythrocyte adenosine triphosphate concentration
+HP:4000184	Reduced erythrocyte adenosine triphosphate concentration
+HP:4000186	Elevated erythrocyte adenosine triphosphate concentration

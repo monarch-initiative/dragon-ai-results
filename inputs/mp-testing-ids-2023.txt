@@ -1,0 +1,103 @@
+subject	subject_label
+MP:0014234	decreased enterocyte apoptosis
+MP:0014235	abnormal tumor-free survival time
+MP:0014236	increased tumor-free survival time
+MP:0014237	decreased tumor-free survival time
+MP:0014238	abnormal ribosome morphology
+MP:0014239	abnormal intracellular organelle morphology
+MP:0014240	abnormal ribosome physiology
+MP:0014241	abnormal intracellular organelle physiology
+MP:0014242	abnormal ribosome biogenesis
+MP:0014243	abnormal ribosome assembly
+MP:0014244	abnormal cellular ATP level
+MP:0014245	increased cellular ATP level
+MP:0014246	decreased cellular ATP level
+MP:0014247	long photoreceptor inner segment
+MP:0014248	thin retina nerve fiber layer
+MP:0014249	thick retina nerve fiber layer
+MP:0014250	disorganized retina nerve fiber layer
+MP:0014251	absent retina nerve fiber layer
+MP:0014252	abnormal paired-pulse ratio
+MP:0014253	decreased paired-pulse ratio
+MP:0014254	increased paired-pulse ratio
+MP:0014255	increased paired-pulse inhibition
+MP:0014256	decreased paired-pulse inhibition
+MP:0014257	embryonic lethality prior to tooth bud stage, complete penetrance
+MP:0014258	embryonic lethality prior to tooth bud stage, incomplete penetrance
+MP:0014259	embryonic lethality prior to organogenesis, complete penetrance
+MP:0014260	embryonic lethality prior to organogenesis, incomplete penetrance
+MP:0014261	abnormal spleen B cell follicle number
+MP:0014262	increased spleen B cell follicle number
+MP:0014263	decreased spleen B cell follicle number
+MP:0014264	abnormal perivascular vein cell coverage
+MP:0014265	thick retina inner plexiform layer
+MP:0014266	thick retina outer plexiform layer
+MP:0014267	decreased sex gland secretion
+MP:0014268	increased sex gland secretion
+MP:0014269	decreased testes secretion
+MP:0014270	decreased ovary secretion
+MP:0014271	increased testes secretion
+MP:0014272	increased ovary secretion
+MP:0014273	abnormal skin vasculature morphology
+MP:0014274	decreased respiration
+MP:0014275	increased respiration
+MP:0014276	lobar holoprosencephaly
+MP:0014277	alobar holoprosencephaly
+MP:0014278	semilobar holoprosencephaly
+MP:0014279	abnormal intestinal rotation
+MP:0014280	forelimb oligodactyly
+MP:0014281	hindlimb oligodactyly
+MP:0014282	forelimb syndactyly
+MP:0014283	hindlimb syndactyly
+MP:0014284	abnormal adrenal gland zona fasciculata size
+MP:0014285	disorganized adrenal gland zona fasciculata
+MP:0014286	increased adrenal gland zona fasciculata size
+MP:0014287	decreased adrenal gland zona fasciculata size
+MP:0014288	rhizomelic limb
+MP:0014289	decreased distal limb length
+MP:0014290	abnormal autopod size
+MP:0014291	decreased autopod size
+MP:0014292	decreased internal diameter of tibia
+MP:0014293	increased internal diameter of tibia
+MP:0014294	abnormal skeletal maturation
+MP:0014295	premature skeletal maturation
+MP:0014296	delayed skeletal maturation
+MP:0031464	abnormal spontaneous fetal mouth movement
+MP:0031466	abnormal palatal taste bud morphology
+MP:0031467	absent palatal taste bud
+MP:0031468	abnormal taste bud morphology
+MP:0031469	abnormal pinocytosis
+MP:0031470	abnormal macropinocytosis
+MP:0031471	abnormal micropinocytosis
+MP:0031472	abnormal female germ cell apoptosis
+MP:0031473	decreased female germ cell apoptosis
+MP:0031474	increased female germ cell apoptosis
+MP:0031475	decreased male germ cell apoptosis
+MP:0031476	decreased ovary apoptosis
+MP:0031479	increased urine xanthine level
+MP:0031480	abnormal urine xanthine level
+MP:0031481	decreased urine xanthine level
+MP:0031482	abnormal urine hypoxanthine level
+MP:0031483	decreased urine hypoxanthine level
+MP:0031484	increased urine hypoxanthine level
+MP:0031485	abnormal circulating hypoxanthine level
+MP:0031486	decreased circulating hypoxanthine level
+MP:0031487	increased circulating hypoxanthine level
+MP:0031488	abnormal circulating xanthine level
+MP:0031489	decreased circulating xanthine level
+MP:0031490	increased circulating xanthine level
+MP:0031491	decreased oval window size
+MP:0031492	increased oval window size
+MP:0031493	increased round window size
+MP:0031494	abnormal prenatal movement
+MP:0031495	absent prenatal movement
+MP:0031496	motor developmental delay
+MP:0031497	increased visual acuity
+MP:0031498	abnormal cornea size
+MP:0031499	decreased cornea size
+MP:0031500	increased cornea size
+MP:0031501	abnormal mouth shape
+MP:0031502	open mouth
+MP:0031503	abnormal mouth size
+MP:0031504	increased mouth width
+MP:0031505	decreased mouth width

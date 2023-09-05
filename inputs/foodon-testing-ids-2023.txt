@@ -1,0 +1,120 @@
+subject	subject_label
+FOODON:00001641	berry juice
+FOODON:00001949	hemp food product
+FOODON:00002107	pecan nut food product
+FOODON:00002424	roquefort cheese
+FOODON:00002998	ivy gourd food product
+FOODON:00004328	organism piece
+FOODON:00004329	rice kernel with husk
+FOODON:00004330	rice husk
+FOODON:00004331	plant material
+FOODON:00004332	animal piece
+FOODON:00004333	plant piece
+FOODON:00004334	plant piece(s)
+FOODON:00004335	animal piece(s)
+FOODON:00004336	fungal material
+FOODON:00004337	animal sub-primal cut
+FOODON:00004338	retail cut
+FOODON:00004339	ostrich food product
+FOODON:00004342	meal course
+FOODON:00004343	mafurra nut
+FOODON:00004344	romano cheese food product
+FOODON:00004345	potato (with skin, boiled)
+FOODON:00004346	avocado pulp (raw)
+FOODON:00004347	spelt kernel (cooked)
+FOODON:00004348	raw
+FOODON:00004350	asparagus bean (raw)
+FOODON:00004361	common bamboo shoot (raw)
+FOODON:00004362	rolled oats (cooked)
+FOODON:00004363	steel cut oats (cooked)
+FOODON:00004364	durum wheat kernel (raw)
+FOODON:00004365	freekeh
+FOODON:00004366	oriental wheat kernel (cooked)
+FOODON:00004367	bitter melon food product
+FOODON:00004368	moringa food product
+FOODON:00004369	moringa pod (raw)
+FOODON:00004370	parsnip (peeled)
+FOODON:00004372	long-grain white rice (cooked)
+FOODON:00004373	long grain brown rice (cooked)
+FOODON:00004374	long grain brown rice (uncooked)
+FOODON:00004375	pinto bean (cooked)
+FOODON:00004376	black turtle bean (cooked)
+FOODON:00004377	yellow bean (cooked)
+FOODON:00004378	sumac food product
+FOODON:00004380	rye kernel (cooked)
+FOODON:00004381	pitaya food product
+FOODON:00004382	pitaya fruit
+FOODON:00004383	yellow pitaya fruit
+FOODON:00004385	dragon fruit
+FOODON:00004386	mandarin orange (raw)
+FOODON:00004389	skyr
+FOODON:00004390	winged bean leaf
+FOODON:00004391	winged bean tuber
+FOODON:00004392	beautyberry food product
+FOODON:00004393	beautyberry
+FOODON:00004394	black beautyberry
+FOODON:00004395	black beautyberry (raw)
+FOODON:00004396	american beautyberry
+FOODON:00004397	american beautyberry (raw)
+FOODON:00004398	welchs pink berry
+FOODON:00004400	hemp seed (dehulled, raw)
+FOODON:00004401	hemp seed (raw)
+FOODON:00004401	hemp seed (raw)
+FOODON:00004402	hemp seed
+FOODON:00004403	habanero (raw)
+FOODON:00004403	habanero (raw)
+FOODON:00004407	ivy gourd (frozen raw)
+FOODON:00004408	labneh
+FOODON:00004409	greek yogurt
+FOODON:00004410	beef heart
+FOODON:00004411	dry cow
+FOODON:00004412	beef heart (raw)
+FOODON:00004413	beef cattle
+FOODON:00004414	bison meat food product
+FOODON:00004415	bison meat (raw)
+FOODON:00004417	turkey meat (ground, sauteed)
+FOODON:00004418	pink shrimp (cooked)
+FOODON:00004419	pink shrimp (raw)
+FOODON:00004420	goat food product
+FOODON:00004421	goat milk butter (raw)
+FOODON:00004422	goat meat (raw)
+FOODON:00004423	wild boar food product
+FOODON:00004424	wild boar meat (raw)
+FOODON:00004425	wild boar meat (ground)
+FOODON:00004426	duck egg white (raw)
+FOODON:00004427	duck egg yolk (raw)
+FOODON:00004428	duck egg
+FOODON:00004429	sweet potato (cooked)
+FOODON:00004430	canola straw
+FOODON:00004431	mafurra nut food product
+FOODON:00004434	spelt food product
+FOODON:00004435	hickory nut food product
+FOODON:00004436	animal organ
+FOODON:00004437	baby arugula greens
+FOODON:00004438	common millet (cooked)
+FOODON:00004439	anchovy (canned)
+FOODON:00004440	delicata squash
+FOODON:00004441	delicata squash (raw)
+FOODON:00004442	green acorn squash
+FOODON:00004442	green acorn squash
+FOODON:00004443	green acorn squash (raw)
+FOODON:00004443	green acorn squash (raw)
+FOODON:00004444	golden acorn squash
+FOODON:00004444	golden acorn squash
+FOODON:00004445	golden acorn squash (raw)
+FOODON:00004445	golden acorn squash (raw)
+FOODON:00004446	mexican grey squash
+FOODON:00004447	mexican grey squash (raw)
+FOODON:00004447	mexican grey squash (raw)
+FOODON:00004448	pignut hickory nut
+FOODON:00004449	shellback hickory nut
+FOODON:00004450	red hickory nut
+FOODON:00004451	shagbark hickory nut
+FOODON:00004452	mexican hickory nut
+FOODON:00004453	black hickory nut
+FOODON:00004454	green cardamom seed (dried)
+FOODON:00004455	green cardamom (ground)
+FOODON:03000039	obsolete: lentil (whole, raw)
+FOODON:03603000	malnutrition supplement food product
+FOODON:03603001	moderate malnutrition supplement food product
+FOODON:03603002	severe malnutrition supplement food product

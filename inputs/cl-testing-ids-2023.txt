@@ -1,0 +1,61 @@
+subject	subject_label
+CL:4030034	respiratory ciliated cell
+CL:4030035	dental pulp stem cell
+CL:4030036	early spermatid
+CL:4030037	late spermatid
+CL:4030038	CD24-positive, CD-133-positive, vimentin-positive proximal tubular cell
+CL:4030039	von Economo neuron
+CL:4030040	endometrial ciliated epithelial cell
+CL:4030041	luminal endometrial ciliated epithelial cell
+CL:4030042	glandular endometrial ciliated epithelial cell
+CL:4030043	matrix D1 medium spiny neuron
+CL:4030047	matrix D2 medium spiny neuron
+CL:4030048	striosomal D1 medium spiny neuron
+CL:4030049	striosomal D2 medium spiny neuron
+CL:4030050	D1/D2-hybrid medium spiny neuron
+CL:4030051	nucleus accumbens shell and olfactory tubercle D1 medium spiny neuron
+CL:4030052	nucleus accumbens shell and olfactory tubercle D2 medium spiny neuron
+CL:4030053	Island of Calleja granule cell
+CL:4030054	RXFP1-positive interface island D1-medium spiny neuron
+CL:4030055	intermediate cell of urothelium
+CL:4030056	umbrella cell of urothelium
+CL:4030057	eccentric medium spiny neuron
+CL:4033014	peg cell
+CL:4033015	retinal astrocyte
+CL:4033016	secondary crest myofibroblast
+CL:4033017	bronchiolar smooth muscle cell
+CL:4033018	lung megakaryocyte
+CL:4033019	ON-blue cone bipolar cell
+CL:4033020	mucus secreting cell of trachea gland
+CL:4033021	myoepithelial cell of trachea gland
+CL:4033022	mucus secreting cell of bronchus submucosal gland
+CL:4033023	airway submucosal gland collecting duct epithelial cell
+CL:4033024	airway submucosal gland duct basal cell
+CL:4033025	perichondrial fibroblast
+CL:4033026	lung perichondrial fibroblast
+CL:4033027	diffuse bipolar 1 cell
+CL:4033028	diffuse bipolar 2 cell
+CL:4033029	diffuse bipolar 3a cell
+CL:4033030	diffuse bipolar 3b cell
+CL:4033031	diffuse bipolar 4 cell
+CL:4033032	diffuse bipolar 6 cell
+CL:4033033	flat midget bipolar cell
+CL:4033034	invaginating midget bipolar cell
+CL:4033035	giant bipolar cell
+CL:4033036	OFFx cell
+CL:4033037	mucus secreting cell of tracheobronchial tree submucosal gland
+CL:4033038	lung resident memory CD4-positive, alpha-beta T cell
+CL:4033039	lung resident memory CD8-positive, alpha-beta T cell
+CL:4033040	lung resident memory CD8-positive, CD103-positive, alpha-beta T cell
+CL:4033041	CCL3-positive alveolar macrophage
+CL:4033042	metallothionein-positive alveolar macrophage
+CL:4033043	lung interstitial macrophage
+CL:4033044	deuterosomal cell
+CL:4033045	lung migratory dendritic cell
+CL:4033048	respiratory suprabasal cell
+CL:4033049	taste receptor cell of tongue
+CL:4033050	catecholaminergic neuron
+CL:4040000	glial restricted tripotential precursor cell
+CL:4040001	chorionic girdle cell
+CL:4040002	enteroglial cell
+CL:4040003	fetal pre-type II pneumocyte
