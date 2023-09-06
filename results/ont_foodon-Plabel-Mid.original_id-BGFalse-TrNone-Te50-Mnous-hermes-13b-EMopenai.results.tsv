@@ -1,0 +1,84 @@
+# model_name: nous-hermes-13b
+# embedding_model_name: 'openai:'
+# generate_background: false
+# task_started: '2023-09-05 20:45:00.197268'
+# task_finished: null
+# executed_on: 'Darwin-21.6.0-Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT
+#   2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000-arm64'
+# agent: dae
+# extractor: BasicExtractor
+# method: null
+# source_db_path: db
+# target_db_path: db
+# source_collection: ont_foodon
+# additional_collections: null
+# num_training: null
+# num_testing: 50
+# num_validation: 0
+# stratified_collection:
+#   source: null
+#   training_set: null
+#   testing_set: null
+#   validation_set: null
+#   training_set_collection: ont_foodon_training
+#   testing_set_collection: ont_foodon_testing
+#   validation_set_collection: null
+# fields_to_mask:
+# - id
+# - original_id
+# fields_to_predict:
+# - label
+# report_path: null
+# working_directory: results
+# results: null
+masked_id	expected_label	feature_definition	feature_aliases	feature_relationships	feature_logical_definition	masked_original_id	predicted_label	metric_precision	metric_recall	metric_f1_score	metric_accuracy	metric_specificity	metric_true_positives	metric_true_negatives	metric_false_positives	metric_false_negatives
+PignutHickoryNut	pignut hickory nut	A whole hickory nut from a pignut hickory tree (Carya glabra).		[{'predicate': 'InTaxon', 'target': 'CaryaGlabra'}, {'predicate': 'subClassOf', 'target': 'HickoryNut'}, {'predicate': 'subClassOf', 'target': 'CaryopsisFruit'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'CaryopsisFruit'}, {'predicate': 'InTaxon', 'target': 'CaryaGlabra'}]	FOODON:00004448	pignut hickory nut	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+GreekYogurt	greek yogurt			[{'predicate': 'subClassOf', 'target': 'StrainedYogurt'}]		FOODON:00004409	strained yogurt (flavored)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+TurkeyMeat_ground_sauteed_	turkey meat (ground, sauteed)	Ground turkey meat which has been sauteed.		[{'predicate': 'subClassOf', 'target': 'TurkeyMeatFoodProduct'}]		FOODON:00004417	turkey meat (ground) and sautéed	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Raw	raw	A characteristic of an animal, plant, fungi or algae, or a substantial piece thereof, which has not had material processing done to it that affects its biochemical composition.		[{'predicate': 'subClassOf', 'target': 'FoodObjectQuality'}]		FOODON:00004348	unprocessed food	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+SpeltFoodProduct	spelt food product	A food product made from spelt wheat.		[{'predicate': 'subClassOf', 'target': 'WheatFoodProduct'}]		FOODON:00004434	spelt food product	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+LongGrainBrownRice_uncooked_	long grain brown rice (uncooked)			[{'predicate': 'subClassOf', 'target': 'BrownRiceFoodProduct'}]		FOODON:00004374	rice food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+LongGrainBrownRice_cooked_	long grain brown rice (cooked)			[{'predicate': 'subClassOf', 'target': 'BrownRiceFoodProduct'}]		FOODON:00004373	rice food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AnimalPieceS_	animal piece(s)	A collection of one or more anatomical or other pieces derived from animal(s).		[{'predicate': 'HasMember', 'target': 'AnimalPiece'}, {'predicate': 'subClassOf', 'target': 'AnimalMaterial'}]		FOODON:00004335	animal material (whole or pieces)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+ShagbarkHickoryNut	shagbark hickory nut	A whole hickory nut from a shagbark hickory tree (Carya ovata)		[{'predicate': 'InTaxon', 'target': 'CaryaOvata'}, {'predicate': 'subClassOf', 'target': 'HickoryNut'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'HickoryNut'}, {'predicate': 'InTaxon', 'target': 'CaryaOvata'}]	FOODON:00004451	shagbark hickory nut	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+MexicanGreySquash	mexican grey squash	A whole Mexican grey squash.		[{'predicate': 'subClassOf', 'target': 'SummerSquash'}]		FOODON:00004446	Mexican grey squash (whole)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+RolledOats_cooked_	rolled oats (cooked)	Rolled oats which are cooked		[{'predicate': 'subClassOf', 'target': 'RolledOats'}]		FOODON:00004362	rolled oats (cooked)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+RyeKernel_cooked_	rye kernel (cooked)			[{'predicate': 'subClassOf', 'target': 'RyeKernel'}]		FOODON:00004380	rye kernel	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AsparagusBean_raw_	asparagus bean (raw)			[{'predicate': 'subClassOf', 'target': 'AsparagusBean'}]		FOODON:00004350	asparagus bean (raw)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+HickoryNutFoodProduct	hickory nut food product	A food product which derives from a hickory cultivar (Carya) nut.		[{'predicate': 'subClassOf', 'target': 'NutFoodProduct'}]		FOODON:00004435	hickory nut	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PinkShrimp_raw_	pink shrimp (raw)			[{'predicate': 'subClassOf', 'target': 'Shrimp_raw_'}]		FOODON:00004419	shrimp (raw)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+DragonFruit	dragon fruit	A fruit from the dragon fruit cactus (Selenicereus undatus).		[{'predicate': 'InTaxon', 'target': 'SelenicereusUndatus'}, {'predicate': 'subClassOf', 'target': 'PitayaFruit'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'BerryFruit'}, {'predicate': 'InTaxon', 'target': 'SelenicereusUndatus'}]	FOODON:00004385	dragon fruit	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+WildBoarMeat_ground_	wild boar meat (ground)	Wild boar meat which is ground.		[{'predicate': 'subClassOf', 'target': 'WildBoarFoodProduct'}]		FOODON:00004425	wild boar (ground)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+IvyGourd_frozenRaw_	ivy gourd (frozen raw)			[{'predicate': 'subClassOf', 'target': 'IvyGourdFoodProduct'}]		FOODON:00004407	ivy gourd food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+DurumWheatKernel_raw_	durum wheat kernel (raw)	A durum wheat kernel which is raw (not dried).		[{'predicate': 'HasQuality_RO:0000086', 'target': 'Raw'}, {'predicate': 'subClassOf', 'target': 'DurumWheatKernel'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'DurumWheatKernel'}, {'predicate': 'HasQuality_RO:0000086', 'target': 'Raw'}]	FOODON:00004364	durum wheat kernel (raw)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+MafurraNutFoodProduct	mafurra nut food product	A food product derived from a mafurra (Trichilia emetica) nut.		[{'predicate': 'subClassOf', 'target': 'NutFoodProduct'}]		FOODON:00004431	mafurra nut food product	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+DuckEgg	duck egg			[{'predicate': 'InTaxon', 'target': 'Duck'}, {'predicate': 'subClassOf', 'target': 'DuckEggFoodProduct'}, {'predicate': 'subClassOf', 'target': 'ShelledEgg'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'ShelledEgg'}, {'predicate': 'InTaxon', 'target': 'Duck'}]	FOODON:00004428	duck egg (shelled)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PlantPiece	plant piece	An anatomical or other piece derived from a plant.		[{'predicate': 'subClassOf', 'target': 'OrganismPiece'}, {'predicate': 'subClassOf', 'target': 'PlantMaterial'}]		FOODON:00004333	plant material	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+GreenAcornSquash_raw_	green acorn squash (raw)	A whole green acorn squash which is raw.		[{'predicate': 'subClassOf', 'target': 'GreenAcornSquash'}]		FOODON:00004443	acorn squash (green, raw)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+GreenAcornSquash	green acorn squash	A whole acorn squash which has a green skin.		[{'predicate': 'subClassOf', 'target': 'AcornSquash'}]		FOODON:00004442	acorn squash (green)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+CanolaStraw	canola straw	A straw of a canola plant (Brassica napus var. napus).		[{'predicate': 'subClassOf', 'target': 'Straw'}]		FOODON:00004430	canola straw	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+WingedBeanLeaf	winged bean leaf	A leaf of a winged bean plant (Psophocarpus tetragonolobus).		[{'predicate': 'InTaxon', 'target': 'PsophocarpusTetragonolobus'}, {'predicate': 'subClassOf', 'target': 'WingedBeanFoodProduct'}, {'predicate': 'subClassOf', 'target': 'BeanLeaf'}, {'predicate': 'subClassOf', 'target': 'RosetteLeaf'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'RosetteLeaf'}, {'predicate': 'InTaxon', 'target': 'PsophocarpusTetragonolobus'}]	FOODON:00004390	winged bean leaf	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+AmericanBeautyberry_raw_	american beautyberry (raw)			[{'predicate': 'HasQuality_RO:0000086', 'target': 'Raw'}, {'predicate': 'subClassOf', 'target': 'AmericanBeautyberry'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'AmericanBeautyberry'}, {'predicate': 'HasQuality_RO:0000086', 'target': 'Raw'}]	FOODON:00004397	american beautyberry (raw)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+GoldenAcornSquash_raw_	golden acorn squash (raw)	A whole golden acorn squash which is raw.		[{'predicate': 'subClassOf', 'target': 'GreenAcornSquash'}, {'predicate': 'subClassOf', 'target': 'GoldenAcornSquash'}]		FOODON:00004445	golden acorn squash (raw)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+Potato_withSkin_boiled_	potato (with skin, boiled)	A boiled whole potato.		[{'predicate': 'subClassOf', 'target': 'PotatoFoodProduct'}]		FOODON:00004345	boiled white potato	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+GoatFoodProduct	goat food product	A food product made from one or more goats.		[{'predicate': 'subClassOf', 'target': 'MammalianMeatFoodProduct'}]		FOODON:00004420	goat meat food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+RedHickoryNut	red hickory nut	A whole hickory nut from a red hickory tree (Carya ovalis)		[{'predicate': 'InTaxon', 'target': 'CaryaOvalis'}, {'predicate': 'subClassOf', 'target': 'HickoryNut'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'HickoryNut'}, {'predicate': 'InTaxon', 'target': 'CaryaOvalis'}]	FOODON:00004450	red hickory nut	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+HempSeed_raw_	hemp seed (raw)			[{'predicate': 'subClassOf', 'target': 'HempSeed'}]		FOODON:00004401	hemp seed	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PecanNutFoodProduct	pecan nut food product	A food product which derives from a pecan cultivar (Carya illinoinensis) nut.		[{'predicate': 'subClassOf', 'target': 'HickoryNutFoodProduct'}]		FOODON:00002107	pecan food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+BerryJuice	berry juice			[{'predicate': 'subClassOf', 'target': 'FruitJuiceFoodProduct'}, {'predicate': 'subClassOf', 'target': 'BerryFoodProduct'}]		FOODON:00001641	berry juice	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+BlackBeautyberry_raw_	black beautyberry (raw)			[{'predicate': 'HasQuality_RO:0000086', 'target': 'Raw'}, {'predicate': 'subClassOf', 'target': 'BlackBeautyberry'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'BlackBeautyberry'}, {'predicate': 'HasQuality_RO:0000086', 'target': 'Raw'}]	FOODON:00004395	black beauty berry (raw)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+HempSeed_dehulled_raw_	hemp seed (dehulled, raw)			[{'predicate': 'subClassOf', 'target': 'HempFoodProduct'}]		FOODON:00004400	hemp food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PinkShrimp_cooked_	pink shrimp (cooked)	Pink shrimp (Pandalus borealis) which have been cooked.		[{'predicate': 'subClassOf', 'target': 'Shrimp_cooked_'}]		FOODON:00004418	shrimp (cooked)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+PlantMaterial	plant material	Anatomical or other piece(s) or substance derived from one or more plants.		[{'predicate': 'subClassOf', 'target': 'OrganismMaterial'}]		FOODON:00004331	plant material	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+WildBoarMeat_raw_	wild boar meat (raw)	Wild boar meat which is raw.		[{'predicate': 'subClassOf', 'target': 'WildBoarFoodProduct'}]		FOODON:00004424	wild boar (raw)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+AnimalOrgan	animal organ			[{'predicate': 'subClassOf', 'target': 'AnimalPiece'}]		FOODON:00004436	animal piece	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+MexicanHickoryNut	mexican hickory nut	A whole hickory nut from a mexican hickory tree (Carya palmeri)		[{'predicate': 'InTaxon', 'target': 'CaryaPalmeri'}, {'predicate': 'subClassOf', 'target': 'HickoryNut'}]	[{'predicate': 'rdfs:subClassOf', 'target': 'HickoryNut'}, {'predicate': 'InTaxon', 'target': 'CaryaPalmeri'}]	FOODON:00004452	mexican hickory nut	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+BabyArugulaGreens	baby arugula greens	A bunch of baby arugula leaves (immature leaves)		[{'predicate': 'subClassOf', 'target': 'ArugulaGreensBunch'}]		FOODON:00004437	baby arugula leaves	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+RiceKernelWithHusk	rice kernel with husk	A rice kernel which is attached to its husk.		[{'predicate': 'subClassOf', 'target': 'RiceFoodProduct'}]		FOODON:00004329	brown rice	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+SweetPotato_cooked_	sweet potato (cooked)	A sweet potato that has been cooked.		[{'predicate': 'subClassOf', 'target': 'SweetPotato'}]		FOODON:00004429	sweet potato (cooked)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+MexicanGreySquash_raw_	mexican grey squash (raw)	A whole Mexican grey squash which is raw.		[{'predicate': 'subClassOf', 'target': 'MexicanGreySquash'}]		FOODON:00004447	mexican grey squash (raw)	1.0	1.0	1.0	1.0	0.0	1	0	0	0
+MalnutritionSupplementFoodProduct	malnutrition supplement food product	A food supplement food product designed to alleviate malnutrition.		[{'predicate': 'subClassOf', 'target': 'FoodSupplementFoodProduct'}]		FOODON:03603000	malnutrition alleviation food supplement	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+DuckEggYolk_raw_	duck egg yolk (raw)			[{'predicate': 'subClassOf', 'target': 'DuckEggFoodProduct'}]		FOODON:00004427	duck egg food product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+Parsnip_peeled_	parsnip (peeled)	A parsnip which has been peeled.		[{'predicate': 'subClassOf', 'target': 'ParsnipFoodProduct'}]		FOODON:00004370	peeled parsnip	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+GreenCardamomSeed_dried_	green cardamom seed (dried)			[{'predicate': 'subClassOf', 'target': 'CardamomFoodProduct'}]		FOODON:00004454	cardamom (ground)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+CommonMillet_cooked_	common millet (cooked)	Common millet which is cooked.		[{'predicate': 'subClassOf', 'target': 'CommonMilletFoodProduct'}]		FOODON:00004438	pearl millet kernel (cooked)	0.0	0.0	0.0	0.0	0.0	0	0	1	1
