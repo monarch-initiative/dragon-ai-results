@@ -1,0 +1,47 @@
+# model_name: llama-2-7b-chat
+# embedding_model_name: 'openai:'
+# generate_background: false
+# task_started: '2023-09-20 04:56:46.811627'
+# task_finished: null
+# executed_on: 'Darwin-21.6.0-Darwin Kernel Version 21.6.0: Mon Aug 22 20:19:52 PDT
+#   2022; root:xnu-8020.140.49~2/RELEASE_ARM64_T6000-arm64'
+# agent: dae
+# extractor: BasicExtractor
+# method: null
+# source_db_path: db
+# target_db_path: db
+# source_collection: ont_envo
+# additional_collections: null
+# num_training: null
+# num_testing: 50
+# num_validation: 0
+# stratified_collection:
+#   source: null
+#   training_set: null
+#   testing_set: null
+#   validation_set: null
+#   training_set_collection: ont_envo_training
+#   testing_set_collection: ont_envo_testing
+#   validation_set_collection: null
+# fields_to_mask:
+# - id
+# - original_id
+# fields_to_predict:
+# - label
+# report_path: null
+# working_directory: results
+# results: null
+id	label	definition	aliases	relationships	logical_definition	original_id	masked_id	expected_label	feature_definition	feature_aliases	feature_relationships	feature_logical_definition	masked_original_id	predicted_label	metric_precision	metric_recall	metric_f1_score	metric_accuracy	metric_specificity	metric_true_positives	metric_true_negatives	metric_false_positives	metric_false_negatives
+							Buoy	buoy	A manufactured product which floats in water and can be used a navigational marker among other purposes.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03600085		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							PharmacyUnitFacility	pharmacy unit facility	A hospital unit facility which is used to provide pharmacy services.		[{'predicate': 'HasPart', 'target': 'Pharmacy'}, {'predicate': 'subClassOf', 'target': 'HospitalUnitFacility'}]		ENVO:03501171		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							IntensiveCareUnitRoom	intensive care unit room	A room in which intensive medical care is provided.		[{'predicate': 'PartOf', 'target': 'IntensiveCareUnitFacility'}, {'predicate': 'subClassOf', 'target': 'Room'}]		ENVO:03501155		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							Famine	famine	An environmental system process during which populations have reduced access to food, causing increased hunger, malnutrition, and consequent mortality.		[{'predicate': 'subClassOf', 'target': 'EnvironmentalSystemProcess'}]		ENVO:03510003		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							MassageTherapyClinic	massage therapy clinic	A medical clinic which is used to provide massage therapy services.		[{'predicate': 'subClassOf', 'target': 'MedicalClinic'}]		ENVO:03501187		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							FieldCapacity	field capacity	A concentration of liquid water in soil arrived at after water which is not retained by the soil has drained away.		[{'predicate': 'subClassOf', 'target': 'ConcentrationOfLiquidWaterInSoil'}]		ENVO:06105302		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							SwingBridge	swing bridge	A bridge which is movable and has a vertical locating pin as its primary structural support, and a support ring about which it can pivot horizontally.		[{'predicate': 'subClassOf', 'target': 'Bridge'}]		ENVO:03501250		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							IrradiationByIonizingRadiation	irradiation by ionizing radiation	Irradiation during which a material entity receives energy through ionizing radiation.		[{'predicate': 'HasPart', 'target': 'IonizingRadiation'}, {'predicate': 'subClassOf', 'target': 'Irradiation'}]		ENVO:01003015		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							Pallet	pallet	A manufactured product which is a flat transport structure that supports goods in a stable fashion while being lifted and/or moved.		[{'predicate': 'subClassOf', 'target': 'ManufacturedProduct'}]		ENVO:03501268	manufactured product	0.0	0.0	0.0	0.0	0.0	0	0	1	1
+							PrisonFacility	prison facility	A human construction which is used to forcibly confine humans.		[{'predicate': 'ParticipatesIn', 'target': 'UsageOfAnEnvironmentForCommunityAndSocialServices'}, {'predicate': 'subClassOf', 'target': 'HumanConstruction'}]		ENVO:03501204		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							FoodProssessingNonProductionArea	food prossessing non-production area	A hygienic food production area which is not an immediate part of a food manufacturing process area.		[{'predicate': 'subClassOf', 'target': 'HygienicFoodProductionArea'}]		ENVO:03501319		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							PrivatePrison	private prison	A prison facility which is owned and operated by a private corporation.		[{'predicate': 'subClassOf', 'target': 'PrisonFacility'}]		ENVO:03501205		0.0	0.0	0.0	0.0	0.0	0	0	0	1
+							Pharmacy	pharmacy	A healthcare facility which is used to prepare, dispense, or sell medical drugs.		[{'predicate': 'subClassOf', 'target': 'HealthcareFacility'}]		ENVO:03501193		0.0	0.0	0.0	0.0	0.0	0	0	0	1
