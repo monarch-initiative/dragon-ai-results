@@ -119,6 +119,10 @@ conf/eval-conf-main.yaml:
 conf/eval-conf-definition.yaml:
 	$(CURATE) evaluation-config --collections ont_envo,ont_obi,ont_go,ont_cl,ont_mondo,ont_foodon,ont_oba,ont_hp,ont_mp --background false --fields-to-predict definition > $@
 
+# only a subset
+conf/eval-conf-logical-definition.yaml:
+	$(CURATE) evaluation-config --collections ont_cl,ont_go,ont_mondo,ont_oba,ont_hp,ont_mp --background false --fields-to-predict logical_definition > $@
+
 conf/eval-conf-main-model-%.yaml:
 	$(CURATE) evaluation-config --models $* --collections ont_envo,ont_obi,ont_go,ont_cl,ont_mondo,ont_oba,ont_hp --background false --fields-to-predict label,definition,relationships > $@
 
