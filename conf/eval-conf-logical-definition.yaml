@@ -1,0 +1,85 @@
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_cl
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_cl_training
+    testing_set_collection: ont_cl_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - logical_definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_go
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_go_training
+    testing_set_collection: ont_go_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - logical_definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_mondo
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_mondo_training
+    testing_set_collection: ont_mondo_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - logical_definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_oba
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_oba_training
+    testing_set_collection: ont_oba_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - logical_definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_hp
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_hp_training
+    testing_set_collection: ont_hp_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - logical_definition
+- model_name: gpt-3.5-turbo
+  generate_background: false
+  source_db_path: db
+  target_db_path: db
+  source_collection: ont_mp
+  num_testing: 50
+  stratified_collection:
+    training_set_collection: ont_mp_training
+    testing_set_collection: ont_mp_testing
+  fields_to_mask:
+  - id
+  - original_id
+  fields_to_predict:
+  - logical_definition
+

@@ -15,6 +15,7 @@ scipy = "^1.11.2"
 gspread = "^5.11.1"
 plotly = "^5.17.0"
 statsmodels = "^0.14.0"
+oaklib = "^0.5.20"
 
 
 [build-system]
