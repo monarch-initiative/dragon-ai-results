@@ -5,7 +5,7 @@ CURATE = $(RUN) curategpt
 
 DB_PATH = db
 
-ONTS = cl uberon obi go envo hp mp mondo po to oba agro fbbt nbo chebi vo peco
+ONTS = cl uberon obi go envo hp mp mondo  oba foodon
 TRACKERS = cl uberon obi  envo hp mondo go
 
 
@@ -135,3 +135,32 @@ results/run-%: conf/eval-conf-%.yaml
 
 results/cl-defs-direct.tsv:
 	$(CURATE) multiprompt -m gpt-4 --system "your role is to provide concise textual definitions in the style of the cell ontology for the cell types I provide" --prompt "{subject_label}"  inputs/cl-testing-ids-2023.txt > $@
+
+# reasoner comparison
+
+results/all-term-ids.txt:
+	csvcut -t -c term_id results/predicted-relationships-for-eval.tsv | sort -u > $@
+
+downloads/%-elk.obo: downloads/%.owl
+	owltools $< --remove-annotation-assertions --reasoner elk --run-reasoner --assert-implied --tag-entailed-axioms -o $@.owl -o -f obo  --no-check $@.tmp && mv $@.tmp $@
+.PRECIOUS: downloads/%-elk.obo
+
+UC = $(shell echo '$1' | tr '[:lower:]' '[:upper:]')
+
+results/elk/%-subset.obo: downloads/%-elk.obo
+	obo-grep.pl -r "id: $(call UC,$*):" $< | obo-grep.pl --idfile results/all-term-ids.txt - > $@
+.PRECIOUS: results/elk/%-subset.obo
+
+results/elk/%-tp.txt: results/elk/%-subset.obo
+	grep -ic '^is_a: $*:.*source="direct"' $< > $@.tmp && mv $@.tmp $@
+results/elk/%-fn.txt: results/elk/%-subset.obo
+	grep -i '^is_a: $*:' $< | (grep -vc 'source="direct"' || true) > $@.tmp && mv $@.tmp $@
+
+results/elk/%-outcomes.txt: results/elk/%-tp.txt results/elk/%-fn.txt 
+	(echo $* && cat $^) | perl -npe 's@\n@,@' > $@.tmp && (cat $@.tmp && echo) > $@
+
+
+results/elk/all-outcomes.csv:
+	(echo ontology,tp,fn,notes && cat results/elk/*outcomes.txt) > $@
+
+all_elk: $(patsubst %,results/elk/%-outcomes.txt,$(ONTS))
