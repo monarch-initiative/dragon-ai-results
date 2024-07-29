@@ -1,4 +1,6 @@
-Analysis for the paper https://docs.google.com/document/d/1bevI2vPuoe75raL-FNyOFkPWz5g3IyAnNGdzlO4cf4Y/edit
+[![DOI](https://zenodo.org/badge/13996/monarch-initiative/dragon-ai-results.svg)](https://zenodo.org/badge/latestdoi/13996/monarch-initiative/dragon-ai-results)
+
+This repo contains analysis for the DRAGON-AI paper: https://arxiv.org/abs/2312.10904
 
 ## Reproducing predictions
 
@@ -6,7 +8,7 @@ Source ontologies are in [downloads](downloads)
 
 ## Results Analysis
 
-The main input file for the definition analysis is here: https://github.com/monarch-initiative/gpt-ontology-completion-analysis/blob/main/definitions-sheets/eval.csv
+The main input file for the definition analysis is here: https://github.com/monarch-initiative/dragon-ai-results/blob/main/definitions-sheets/eval.csv
 
 - [notebooks/CollectDefinitionEvaluations.ipynb](notebooks/CollectDefinitionEvaluations.ipynb)
     - aggregates definition evaluations from google drive
@@ -18,4 +20,6 @@ The main input file for the definition analysis is here: https://github.com/mona
     - uses ontology path traversal to classify outputs into TP/FP/FN
 - [notebooks/RelationshipsAnalysis.ipynb](notebooks/RelationshipsAnalysis.ipynb)
     - summarize relationship task
+
+The source google sheet for the manual relationship eval is [here](https://docs.google.com/spreadsheets/d/1YgQgEiSgO5ru8yBKb1tlwmCo-S566no0YHhrFLwRR0E/edit?gid=687340154#gid=687340154)
 
