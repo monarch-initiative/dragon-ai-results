@@ -164,3 +164,10 @@ results/elk/all-outcomes.csv:
 	(echo ontology,tp,fn,notes && cat results/elk/*outcomes.txt) > $@
 
 all_elk: $(patsubst %,results/elk/%-outcomes.txt,$(ONTS))
+
+
+results/manual-relation-eval/rel-eval.st.tsv:
+	curl -L -s "https://docs.google.com/spreadsheets/d/1YgQgEiSgO5ru8yBKb1tlwmCo-S566no0YHhrFLwRR0E/export?gid=687340154&format=tsv" > $@
+
+results/manual-relation-eval/rel-eval.cjm.tsv:
+	curl -L -s "https://docs.google.com/spreadsheets/d/1d-0PyUGhpAwvnmsAsWQHBVflVhXpRH02j_Wog5tP4UU/export?gid=687340154&format=tsv" > $@
